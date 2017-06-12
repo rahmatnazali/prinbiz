@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/WHITE" android:layout_width="-2" android:layout_height="-2">
+    <TextView android:textSize="18sp" android:textColor="@color/WHITE" android:gravity="11" android:id="@id/m_VerifiedTitle" android:background="@color/SETTING_ORANGE" android:padding="12dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignLeft="@id/m_ButtonTableRow" android:layout_alignRight="@id/m_ButtonTableRow" />
+    <TextView android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_NoVerifiedMSGTextView" android:layout_width="-2" android:layout_height="-2" android:layout_margin="15dp" android:layout_below="@id/m_VerifiedTitle" android:layout_alignLeft="@id/m_VerifiedTitle" android:layout_alignRight="@id/m_VerifiedTitle" android:layout_alignStart="@id/m_VerifiedTitle" android:layout_alignEnd="@id/m_VerifiedTitle" />
+    <CheckBox android:id="@id/m_NotShowAgainCheckBox" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:button="@drawable/button_check" android:text="@string/NO_SHOW_AGAIN" android:layout_below="@id/m_NoVerifiedMSGTextView" android:layout_marginStart="20dp" style="@style/checkboxStyle" />
+    <TableRow android:layout_gravity="1" android:id="@id/m_ButtonTableRow" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/m_NotShowAgainCheckBox">
+        <ImageButton android:id="@id/m_NoImageButton" android:background="@drawable/button_print_cancel_bg" android:src="@drawable/button_print_cancel" android:contentDescription="@string/DESCRIPTION" style="@style/btnPopBottomStyle" />
+        <ImageButton android:id="@id/m_OKImageButton" android:background="@drawable/button_print_check_bg" android:src="@drawable/button_yes" android:contentDescription="@string/DESCRIPTION" style="@style/btnPopBottomStyle" />
+    </TableRow>
+</RelativeLayout>

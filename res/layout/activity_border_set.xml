@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:gravity="10" android:id="@id/m_TitileRelativeLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <TextView android:id="@id/m_BorderSetTitleTextView" android:text="@string/BORDERTTITLE" style="@style/titleStyle" />
+        <ImageButton android:id="@id/m_BackImageButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_ContentRLayout" android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/m_TitileRelativeLayout">
+        <Button android:id="@id/m_ImportCollageButton" android:layout_marginTop="15dp" android:text="@string/IMPORTBORDER" android:layout_alignParentTop="true" style="@style/btnSettingStyle" />
+        <Button android:id="@id/m_DelCollageButton" android:text="@string/DELBORDER" android:layout_below="@id/m_ImportCollageButton" style="@style/btnSettingStyle" />
+        <RelativeLayout android:id="@id/m_PaTestLayout" android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/m_DelCollageButton" /> /> />

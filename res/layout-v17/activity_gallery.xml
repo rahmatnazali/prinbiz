@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/FrameLayout1" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+        <TextView android:id="@id/m_TitleTextView" style="@style/titleStyle" />
+        <ImageButton android:id="@id/m_NextButton" android:src="@drawable/button_next" android:layout_alignParentRight="true" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="10" android:id="@id/m_SelectLayout" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/FrameLayout1">
+        <ImageButton android:id="@id/m_SelectAllButton" android:background="@drawable/select_button" android:layout_width="-2" android:layout_height="-2" android:layout_margin="15dp" android:layout_alignParentLeft="true" android:contentDescription="@string/DESCRIPTION" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="0x106000c" android:id="@id/m_SelectAllTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="13dp" android:text="@string/SEL_ALL" android:layout_toRightOf="@id/m_SelectAllButton" android:layout_toEndOf="@id/m_SelectAllButton" />
+        <ProgressBar android:id="@id/m_ProgressBar" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="17dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp" android:layout_alignParentRight="true" android:layout_marginEnd="20dp" android:layout_alignParentEnd="true" style="?unknown_attr_ref: 1010079" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_ContentLLayout" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/m_SelectLayout">
+        <GridView android:gravity="11" android:id="@id/m_ImageGridView" android:layout_width="-2" android:layout_height="-2" android:horizontalSpacing="3dp" android:verticalSpacing="3dp" android:stretchMode="2" android:numColumns="4" android:layout_above="@id/m_BorderHorizontalListView" android:layout_alignParentTop="true" />
+        <com.hiti.ui.horizontallistview.HorizontalListView android:id="@id/m_BorderHorizontalListView" android:background="@color/GALLERY_BOTTOM_BAR" android:scrollbars="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_centerHorizontal="true"
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+        <TextView android:textSize="16dp" android:textColor="@color/WHITE" android:layout_gravity="3" android:id="@id/textView1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" />
+        <com.hiti.plugins.common.ColorPainter_Scorller android:layout_gravity="1" android:id="@id/m_ColorPainter_RedCyan" android:background="@drawable/color_painter_rc" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+        <TextView android:textSize="16dp" android:textColor="@color/WHITE" android:layout_gravity="3" android:id="@id/textView2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" />
+        <com.hiti.plugins.common.ColorPainter_Scorller android:layout_gravity="1" android:id="@id/m_ColorPainter_GreenMagenta" android:background="@drawable/color_painter_gm" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+        <TextView android:textSize="16dp" android:textColor="@color/WHITE" android:layout_gravity="3" android:id="@id/textView3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" />
+        <com.hiti.plugins.common.ColorPainter_Scorller android:layout_gravity="1" android:id="@id/m_ColorPainter_BlueYellow" android:background="@drawable/color_painter_by" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

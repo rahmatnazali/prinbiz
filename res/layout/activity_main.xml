@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_LoadingRelativeLayout" android:background="@drawable/loading_background" android:visibility="2" android:layout_width="-1" android:layout_height="-1"
+        <RelativeLayout android:id="@id/m_LoadingContentRelativeLayout" android:layout_width="-1" android:layout_height="-1">
+            <ImageView android:id="@id/m_LoadingLoGoImageView" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/large_logo" android:layout_centerInParent="true" android:contentDescription="@string/DESCRIPTION" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/m_LoadingBottomRelativeLayout" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginBottom="1dp" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12sp" android:textColor="@color/CAMARA_COLOR" android:id="@id/m_textView1" android:layout_width="-2" android:layout_height="-2" android:text="@string/ABOUT_APP_CONTENT2" android:singleLine="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_MainRelativeLayout" android:background="@drawable/main_background" android:layout_width="-1" android:layout_height="-1">
+        <TableLayout android:id="@id/m_MdnsHintLayout" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" android:layout_alignParentTop="true">
+            <TableRow android:gravity="10" android:orientation="0" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2">
+                <ImageButton android:id="@id/m_MDNSHintImageButton" android:background="0x106000d" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginRight="10dp" android:src="@drawable/star2" android:scaleType="1" android:contentDescription="@string/DESCRIPTION" />
+                <TextView android:textColor="@color/WHITE" android:id="@id/m_MDNSTitleTextView" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="@string/PRINTER_UNDETECT" />
+            </TableRow>
+            <Button android:textColor="@color/DARK_GRAY" android:gravity="1" android:id="@id/m_MDNSMessageImageButton" android:background="@drawable/shape_circle_corner_orange_line_light_orange_padding" android:padding="5dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="@string/PRINTER_DETECT" android:contentDescription="@string/DESCRIPTION" />
+        </TableLayout>
+        <RelativeLayout android:gravity="1" android:id="@id/m_TitleLayout" android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/m_ContentLayout" android:layout_below="@id/m_MdnsHintLayout" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/m_LogoImageView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:src="@drawable/main_logo" android:layout_centerInParent="true" android:contentDescription="@string/DESCRIPTION" />
+        </RelativeLayout>
+        <TableLayout android:id="@id/m_ContentLayout" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <TableRow android:layout_width="-2" android:layout_height="-2">
+                <Button android:id="@id/m_QuickFlashButton" android:text="@string/QUICKTXT" android:drawableTop="@drawable/button_quick_shot" android:drawablePadding="3dp" style="@style/btnMainStyle" />
+                <Button android:id="@id/m_LifePhotoButton" android:text="@string/LIFETEXT" android:drawableTop="@drawable/button_living_pics" android:drawablePadding="3dp" style="@style/btnMainStyle" />
+            </TableRow>
+            <TableRow android:layout_width="-2" android:layout_height="-2">
+                <Button android:id="@id/m_IDpicsButton" android:text="@string/IDTXT" android:drawableTop="@drawable/button_id_photo" android:drawablePadding="3dp" style="@style/btnMainStyle" />
+                <Button android:id="@id/m_SnappicsButton" android:text="@string/SNAPTXT" android:drawableTop="@drawable/button_instant_print" android:drawablePadding="3dp" style="@style/btnMainStyle" />
+            </TableRow>
+        </TableLayout>
+        <LinearLayout android:gravity="800005" android:orientation="0" android:id="@id/m_InfoButtomLayout" android:layout_width="86dp" android:layout_height="-2" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <ImageButton android:id="@id/m_InfoButton" android:background="0x106000d" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/button_info" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+            <ImageButton android:id="@id/m_SettingButton" android:background="0x106000d" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/button_setting" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

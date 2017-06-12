@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@id/RelativeLayout1" android:background="@color/WHITE" android:layout_width="-2" android:layout_height="-2">
+    <ImageView android:id="@id/m_ContentImageView" android:layout_width="-2" android:layout_height="-2" android:scaleType="6" android:contentDescription="@string/DESCRIPTION" />
+    <ImageView android:id="@id/m_ItemQtyImageView" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/not_good_icon" android:contentDescription="@string/DESCRIPTION" />
+    <ImageView android:id="@id/editImage" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/pen" android:contentDescription="@string/DESCRIPTION" />
+    <ImageView android:id="@id/m_ItemFrameImageView" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/pool_frame" android:scaleType="1" android:contentDescription="@string/DESCRIPTION" />
+    <Button android:textSize="14sp" android:textColor="@color/WHITE" android:gravity="800055" android:id="@id/m_ItemAmountText" android:background="@drawable/amount_bg" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="3dp" android:layout_width="-2" android:layout_height="-2" />
+</RelativeLayout>

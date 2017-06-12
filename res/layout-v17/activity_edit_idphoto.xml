@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@id/RelativeLayout1" android:background="@color/BACKGROUND_EDIT" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_TitleLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+        <ImageButton android:id="@id/m_OKButton" android:src="@drawable/button_next" android:layout_alignParentRight="true" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_ContentLayout" android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/m_BottomLayout" android:layout_below="@id/m_TitleLayout"
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+            <ImageButton android:id="@id/m_ResetButton" android:background="0x106000d" android:padding="@dimen/pool_padding_button" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:src="@drawable/button_reset" android:layout_marginStart="15dp" />
+            <LinearLayout android:orientation="1" android:id="@id/m_ScaleTableRow" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_marginEnd="10dp" android:layout_alignParentEnd="true">
+                <Button android:id="@id/m_ScaleUpButton" android:background="@drawable/button_scale_up" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 101032f" />
+                <Button android:id="@id/m_ScaleDownButton" android:background="@drawable/button_scale_down" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" style="?unknown_attr_ref: 101032f" />
+            </LinearLayout>
+            <Button android:id="@id/m_FineUpButton" android:background="@drawable/button_fine_up" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:id="@id/m_EditRelativeLayout" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:layout_below="@id/m_FineUpButton" android:layout_centerHorizontal="true" />
+            <Button android:id="@id/m_FineRightButton" android:background="@drawable/button_fine_left" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@id/m_EditRelativeLayout" android:layout_centerVertical="true" android:layout_toEndOf="@id/m_EditRelativeLayout" />
+            <Button android:id="@id/m_FineLeftButton" android:background="@drawable/button_fine_right" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="@id/m_EditRelativeLayout" android:layout_centerVertical="true" android:layout_toStartOf="@id/m_EditRelativeLayout" />
+            <Button android:id="@id/m_FineDownButton" android:background="@drawable/button_fine_down" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/m_EditRelativeLayout" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/m_FilterColorLayout" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+            <com.hiti.plugins.common.FilterRGBColorSelector android:id="@id/m_FilterColorSelector" android:clickable="true" android:layout_width="-1" android:layout_height="-2" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_BottomLayout" android:background="@color/EDIT_BOTTOM_BAR" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/m_FxButton" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/fx_button" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <ImageButton android:id="@id/m_SaveImageButton" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_save" android:layout_alignParentRight="true" android:contentDescription="@string/DESCRIPTION" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

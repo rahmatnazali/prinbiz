@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DIS_STYLE">
+        <item>50x70</item>
+        <item>60x80</item>
+        <item>50x90</item>
+        <item>70x30</item>
+        <item>40x90</item>
+        <item>70x40</item>
+    </string-array>
+    <string-array name="ID_REGION">
+        <item>亞太</item>
+        <item>加拿大</item>
+        <item>中國</item>
+        <item>歐洲</item>
+        <item>印度</item>
+        <item>拉丁美洲</item>
+        <item>中東</item>
+        <item>北美</item>
+    </string-array>
+    <string-array name="UI_STYLE">
+        <item>\u0009\u00094x6</item>
+    </string-array>
+</resources>

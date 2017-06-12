@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_TitleLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnLargeStyle" />
+        <TextView android:id="@id/m_TitleTextView" android:text="@string/TITLE_SOURCE" style="@style/titleStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/m_TitleLayout">
+        <LinearLayout android:gravity="10" android:orientation="0" android:id="@id/m_PrinterInfoLinear" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginBottom="2dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <TextView android:id="@id/m_RouteTextView" style="@style/txtSourceTitleStyle" />
+            <TextView android:id="@id/m_Splite1TextView" android:text="@string/SPLITE" style="@style/txtSourceTitleStyle" />
+            <TextView android:id="@id/m_PrintModelTitleTextView" android:text="@string/PRINTER_MODEL" style="@style/txtSourceTitleStyle" />
+            <TextView android:id="@id/m_PrintModelTextView" style="@style/txtSourceTitleStyle" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5dp" android:layout_below="@id/m_PrinterInfoLinear" android:layout_alignLeft="@id/m_PrinterInfoLinear">
+            <TextView android:id="@id/m_PrintOutTitleTextView" android:text="@string/MSG_PRINTOUT" style="@style/txtSourceTitleStyle" />
+            <TextView android:id="@id/m_PrintOutTextView" android:layout_toRightOf="@id/m_PrintOutTitleTextView" style="@style/txtSourceTitleStyle" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="1" android:orientation="1" android:id="@id/m_btnLayout" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <Button android:textColor="@color/SOURCE_ORANGE" android:id="@id/m_CameraSourceButton" android:text="@string/CAMERA_SOURCE" android:drawableTop="@drawable/button_camera" style="@style/btnMainLargeStyle" />
+            <Button android:textColor="@color/SOURCE_ORANGE" android:id="@id/m_AlbumSourceButton" android:text="@string/ALBUM_SOURCE" android:drawableTop="@drawable/button_album_source" style="@style/btnMainLargeStyle" />
+            <Button android:textColor="@color/SOURCE_ORANGE" android:id="@id/m_SDcardSourceButton" android:text="@string/SDCARD_SOURCE" android:drawableTop="@drawable/button_sdcard" style="@style/btnMainLargeStyle" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/m_InfoLayout" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:layout_alignParentBottom="true">
+            <TextView android:id="@id/m_WifiTextView" android:text="@string/NOW_WIFI" android:layout_centerVertical="true" style="@style/txtSourceTitleStyle" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

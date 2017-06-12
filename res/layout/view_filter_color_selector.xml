@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:layout_gravity="10" android:layout_width="-1" android:layout_height="-2">
+        <Button android:id="@id/m_ResetButton" android:background="@drawable/button_adjust_reset" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:id="@id/m_OKButton" android:background="@drawable/button_adjust_check" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="1" android:background="@color/EDIT_BOTTOM_BAR" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="3dp">
+        <com.hiti.plugins.common.FilterColorPainter android:gravity="1" android:layout_gravity="1" android:id="@id/filter_color_selector_painter" android:layout_width="-1" android:layout_height="-1" />
+    </FrameLayout>
+</LinearLayout>

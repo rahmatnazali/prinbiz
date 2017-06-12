@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="@color/WHITE" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:gravity="10" android:id="@id/m_TitleRLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/back" android:contentDescription="@string/descriptions" style="@style/btnStyle" />
+        <TextView android:id="@id/textView1" android:text="@string/INFO_TITLE" style="@style/titleStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_WebViewRLayout" android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/m_TitleRLayout">
+        <WebView android:id="@id/m_WebView" android:layout_width="-1" android:layout_height="-1" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@id/m_WebViewLoadTextView" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_alignBaseline="@id/m_WebView" android:layout_alignBottom="@id/m_WebView" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/m_WebViewLoadProgressBar" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+</RelativeLayout>

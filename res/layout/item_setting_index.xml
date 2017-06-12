@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+    <Button android:id="@id/m_itemImageButton" android:text="@string/SET_PRINTER" android:contentDescription="@string/DESCRIPTION" style="@style/btnSettingStyle" />
+    <TextView android:textSize="12sp" android:textColor="@color/SETTING_GRAY" android:id="@id/m_PrintInfoTextView" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/SET_PRINTER" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

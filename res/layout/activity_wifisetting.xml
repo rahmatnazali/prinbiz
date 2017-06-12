@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="@color/DIALOG_LIGHT_ORANGE" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_TitileRLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/m_TitleTextView" android:text="@string/TITLE_WIFI_SETTING" style="@style/titleStyle" />
+        <ImageButton android:id="@id/m_BackImageButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_below="@id/m_TitileRLayout"
+        <LinearLayout android:gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="3.0">
+            <TextView android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_SSIDTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/PRINTER_WIFI_SSID" />
+            <EditText android:id="@id/m_SSIDEditText" android:layout_width="-1" android:layout_height="-2" android:hint="@string/PLEASE_INPUT_PRINTER_WIFI_SSID" android:ems="10" android:singleLine="true" android:maxLength="32" android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ~!@#$%^&*()_+|`-={}:"<>?[];',./ ">
+                <requestFocus />
+            </EditText>
+            <TextView android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_PwdTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/PASSWORD" />
+            <EditText android:id="@id/m_PwdEditText" android:layout_width="-1" android:layout_height="-2" android:hint="@string/PLEASE_INPUT_PASSWORD" android:maxLength="13" android:inputType="81" />
+            <TextView android:textColor="@color/DARK_GRAY" android:id="@id/m_PwdHintTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:text="@string/PASSWORD_SETTING_ALERT_MSG" android:singleLine="true" />
+            <Button android:id="@id/m_SetComfirmButton" android:text="@string/PRINTER_WIFI_SET" style="@style/btnWifiSettingStyle" />
+        </LinearLayout>
+        <ImageView android:id="@id/m_DividerLine" android:background="@drawable/dividerline" android:layout_width="-1" android:layout_height="10dp" android:contentDescription="@string/DESCRIPTION" android:layerType="1" />
+        <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/m_NFCWifiLayout" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="3.0">
+            <TextView android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_NFCSSIDTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/PRINTER_WIFI_SSID" />
+            <EditText android:id="@id/m_NFCSSIDEditText" android:layout_width="-1" android:layout_height="-2" android:hint="@string/PLEASE_INPUT_PRINTER_WIFI_SSID" android:ems="10" android:singleLine="true" android:maxLength="32" android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ~!@#$%^&*()_+|`-={}:"<>?[];',./ " />
+            <TextView android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_NFCPwdTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/PASSWORD" />
+            <EditText android:id="@id/m_NFCPwdEditText" android:layout_width="-1" android:layout_height="-2" android:hint="@string/PLEASE_INPUT_PASSWORD" android:maxLength="13" android:inputType="81" />
+            <TextView android:textColor="@color/DARK_GRAY" android:id="@id/m_NFCPwdHintTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/PASSWORD_SETTING_ALERT_MSG" android:singleLine="true" />
+            <Button android:id="@id/m_NFCWriteButton" android:text="@string/NFC_APPLY_BUTTON" style="@style/btnWifiSettingStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/m_NFCTagLayout" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <TableRow android:gravity="10" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textSize="16sp" android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_NFCReadTitleTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/NFC_READ_TAG_INFO" />
+                <ImageButton android:id="@id/m_NFCInfoButton" android:background="0x106000d" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="5dp" android:src="@drawable/button_info" android:scaleType="7" android:contentDescription="@string/DESCRIPTION" />
+            </TableRow>
+            <TextView android:textSize="14sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_NFCReadMSGTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/NFC_APPROCH_TO_READ_MSG" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

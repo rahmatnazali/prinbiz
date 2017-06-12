@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_pressed="true" android:drawable="@drawable/shape_circle_corner_white_line_orange_padding" />
+    <item android:state_pressed="false" android:drawable="@drawable/shape_circle_corner_orange_line_white_padding" />
+</selector>

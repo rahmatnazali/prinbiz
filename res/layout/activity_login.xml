@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_TitileRelativeLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <TextView android:id="@id/m_BorderSetTitleTextView" android:text="@string/BORDERTTITLE" style="@style/titleStyle" />
+        <ImageButton android:id="@id/m_BackImageButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_LoginLayout" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="15dp" android:layout_above="@id/OKLayout" android:layout_centerHorizontal="true">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_AccountTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/ACCOUNT" android:layout_alignRight="@id/m_PwdTextView" android:layout_alignParentTop="true" />
+        <EditText android:id="@id/m_AccountEditText" android:layout_width="-2" android:layout_height="-2" android:hint="@string/ACCOUNT_HINT" android:ems="10" android:singleLine="true" android:maxLength="32" android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ~!@#$%^&*()_+|`-={}:"<>?[];',./ " android:layout_alignLeft="@id/m_PwdEditText" android:layout_alignTop="@id/m_AccountTextView" android:layout_alignRight="@id/m_PwdEditText" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_PwdTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="@string/MSG_PWD" android:layout_alignTop="@id/m_PwdEditText" />
+        <EditText android:id="@id/m_PwdEditText" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" android:hint="@string/PLEASE_INPUT_PASSWORD" android:maxLength="32" android:layout_toRightOf="@id/m_PwdTextView" android:layout_below="@id/m_AccountEditText" android:inputType="81" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_CheckRLayout" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="15dp" android:layout_above="@id/OKLayout">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_CheckTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="@string/PLEASE_INPUT_PASSWORD" android:layout_alignLeft="@id/m_CheckEditText" android:layout_alignParentTop="true" />
+        <EditText android:id="@id/m_CheckEditText" android:layout_width="-2" android:layout_height="-2" android:hint="@string/PLEASE_INPUT_PASSWORD" android:singleLine="true" android:maxLength="32" android:layout_below="@id/m_CheckTextView" android:layout_centerHorizontal="true" android:inputType="81">
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/OKLayout" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true">
+        <Button android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_OKButton" android:background="@drawable/button" android:layout_width="-2" android:layout_height="-2" android:text="@string/OK" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1" android:contentDescription="@string/DESCRIPTION">
+    <ProgressBar android:id="@id/loadThumbnailProgressBar" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="false" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 101007a" />
+    <RelativeLayout android:id="@id/FrameLayout1" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+        <TextView android:id="@id/m_TitleTextView" style="@style/titleStyle" />
+    </RelativeLayout>
+    <Button android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_ApplyToPrinterButton" android:layout_width="-2" android:layout_height="-2" android:text="@string/APPLY_TO_PRINTER" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="1" android:id="@id/linearLayout1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:layout_below="@id/FrameLayout1">
+        <TextView android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_BurnFirmwareVersionTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/THE_LAST_FIRMWARE" />
+        <TextView android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_BurnFirmwareFeatureTextView" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_BurnFirmwareFeatureDescriptionTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_PrinterListRelativeLayout" android:background="@drawable/shape_circle_corner_orange_line_light_orange_padding" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true"
+        <RelativeLayout android:id="@id/m_TitleRelativeLayout" android:background="@drawable/shape_circle_corner_orange_line_white_padding" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:layout_alignParentTop="true">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="@color/BLACK" android:gravity="11" android:id="@id/m_TitleTextView" android:layout_width="-1" android:layout_height="-2" android:text="@string/PrinterList" android:layout_toLeftOf="@id/m_ScanButton" android:layout_centerVertical="true" />
+            <Button android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="@color/setting_white_to_orange" android:id="@id/m_ScanButton" android:background="@drawable/shape_circle_corner_white_line_orange_padding" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" android:text="@string/PrinterScan" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ListView android:id="@id/m_PrinterListView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="@id/m_TitleRelativeLayout" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/m_ScanProgressBar" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+</RelativeLayout>

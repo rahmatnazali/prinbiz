@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="@color/WHITE" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_TitleBarRLyout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+        <TextView android:id="@id/m_TitleTextView" android:text="@string/SET_TITLE" style="@style/titleStyle" />
+        <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="12sp" android:textColor="@color/WHITE" android:id="@id/m_VersionTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/APP_VERSION" />
+            <TextView android:textSize="12sp" android:textColor="@color/WHITE" android:id="@id/m_NowWifiTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/NOW_WIFI" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ListView android:id="@id/m_SettingIndexListView" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/m_TitleBarRLyout" />
+    <ProgressBar android:id="@id/m_CloseListprogressBar" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+</RelativeLayout>

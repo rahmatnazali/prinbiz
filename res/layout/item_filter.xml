@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="1" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:gravity="11" android:layout_gravity="11" android:id="@id/RelativeLayout1" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:id="@id/DefaultFilterImageView" android:layout_width="-2" android:layout_height="-2" />
+        <ImageView android:id="@id/FilterImageView" android:layout_width="-2" android:layout_height="-2" />
+        <ProgressBar android:id="@id/FilterProgressBar" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+        <ImageView android:id="@id/FilterCheckImageView" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:gravity="31" android:layout_gravity="1" android:id="@id/m_FilterNameTextView" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_below="@id/RelativeLayout1" />
+</RelativeLayout>

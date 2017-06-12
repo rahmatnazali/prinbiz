@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/m_RelativeLayout" android:layout_width="-1" android:layout_height="-2"
+    <RelativeLayout android:id="@id/m_MainRelativeLayout" android:background="@drawable/main_background" android:visibility="0" android:layout_width="-1" android:layout_height="-1"
+        <RelativeLayout android:id="@id/m_TitleLayout" android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/m_PrinterModelLayout">
+            <LinearLayout android:orientation="1" android:id="@id/m_LogoLLayout" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="1" android:id="@id/m_LogoImageView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:src="@drawable/main_logo" android:contentDescription="@string/DESCRIPTION" />
+                <TextView android:textSize="16sp" android:textStyle="1" android:id="@id/m_SelModelTextView" android:text="@string/ASK_SEL_PRINTER_MODEL" style="@style/txtStyle" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TableLayout android:orientation="1" android:id="@id/m_PrinterModelLayout" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <TableRow android:layout_width="-2" android:layout_height="-2">
+                <ImageButton android:id="@id/m_P310WButton" android:src="@drawable/button_model_310w" android:contentDescription="@string/DESCRIPTION" style="@style/btnModelStyle" />
+                <ImageButton android:id="@id/m_P520LButton" android:src="@drawable/button_model_520l" android:contentDescription="@string/DESCRIPTION" style="@style/btnModelStyle" />
+            </TableRow>
+            <TableRow android:layout_width="-2" android:layout_height="-2">
+                <ImageButton android:id="@id/m_P750LButton" android:src="@drawable/button_model_750l" android:contentDescription="@string/DESCRIPTION" style="@style/btnModelStyle" />
+                <ImageButton android:id="@id/m_P530DLButton" android:src="@drawable/button_model_530d" android:contentDescription="@string/DESCRIPTION" style="@style/btnModelStyle" />
+            </TableRow>
+        </TableLayout>
+        <RelativeLayout android:id="@id/m_BottomAsKLayout" android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/m_PrinterModelLayout">
+            <CheckBox android:textSize="14sp" android:textStyle="1" android:textColor="@color/WHITE" android:id="@id/m_m_NotAskAgainCheckBox" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" android:button="@drawable/button_check" android:text="@string/NOT_ASK_AGAIN" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="15dp" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_LoadingRelativeLayout" android:background="@drawable/loading_background" android:visibility="2" android:layout_width="-1" android:layout_height="-1"
+        <RelativeLayout android:id="@id/m_LoadingContentRelativeLayout" android:layout_width="-1" android:layout_height="-1">
+            <ImageView android:id="@id/m_LoadingLoGoImageView" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/large_logo" android:layout_centerInParent="true" android:contentDescription="@string/DESCRIPTION" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/m_LoadingBottomRelativeLayout" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" android:layout_marginBottom="1dp" android:layout_alignParentBottom="true" android:layout_marginStart="3dp">
+            <TextView android:textSize="12sp" android:textColor="@color/CAMARA_COLOR" android:id="@id/m_textView1" android:layout_width="-2" android:layout_height="-2" android:text="@string/ABOUT_APP_CONTENT2" android:singleLine="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

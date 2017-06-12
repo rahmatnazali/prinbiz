@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/txtAutoPowerOffName" android:layout_width="-2" android:layout_height="-2" android:text="Medium Text" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/CheckView" android:background="@color/LIGHT_GRAY" android:padding="1dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/check_button" android:layout_alignParentRight="true" android:contentDescription="@string/desc" />
+    </RelativeLayout>
+</RelativeLayout>

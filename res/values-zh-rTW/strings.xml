@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_enable_button">啟用</string>
+    <string name="common_google_play_services_enable_text">您必須啟用 Google Play 服務，才能執行「%1$s」。</string>
+    <string name="common_google_play_services_enable_title">啟用 Google Play 服務</string>
+    <string name="common_google_play_services_install_button">取得 Google Play 服務</string>
+    <string name="common_google_play_services_install_text_phone">您的手機並未安裝 Google Play 服務，因此無法執行「%1$s」。</string>
+    <string name="common_google_play_services_install_text_tablet">您的平板電腦並未安裝 Google Play 服務，因此無法執行「%1$s」。</string>
+    <string name="common_google_play_services_install_title">取得 Google Play 服務</string>
+    <string name="common_google_play_services_notification_ticker">Google Play 服務發生錯誤</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」無法存取 Google Play 服務。如果問題無法解決，請與開發人員聯絡，向對方尋求協助。</string>
+    <string name="common_google_play_services_unsupported_text">「%1$s」需要搭配 Google Play 服務才能運作，但您的裝置並不支援相關服務。請與您的裝置製造商聯絡以尋求協助。</string>
+    <string name="common_google_play_services_unsupported_title">Google Play 服務</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_google_play_services_update_text">您必須更新 Google Play 服務，才能執行「%1$s」。</string>
+    <string name="common_google_play_services_update_title">更新 Google Play 服務</string>
+    <string name="common_google_play_services_updating_text">執行「%1$s」所需的 Google Play 服務正在更新。</string>
+    <string name="common_google_play_services_updating_title">Google Play 服務更新中</string>
+    <string name="common_google_play_services_wear_update_text">必須使用新版 Google Play 服務。該服務稍後就會自動更新。</string>
+    <string name="common_open_on_phone">在手機上開啟</string>
+    <string name="common_signin_button_text">登入</string>
+    <string name="common_signin_button_text_long">使用 Google 帳戶登入</string>
+    <string name="ABOUT_APP">關於本應用程式</string>
+    <string name="ABOUT_APP_CONTENT">"
+ 2016 誠研科技股份有限公司
+版權所有"</string>
+    <string name="ABOUT_APP_CONTENT2">"
+ 2016 誠研科技股份有限公司版權所有"</string>
+    <string name="ABOUT_APP_VERSION">"
+應用程式版本:"</string>
+    <string name="ACCOUNT">帳號:</string>
+    <string name="ACCOUNT_HINT">請輸入測試帳號</string>
+    <string name="ACCOUNT_IS_PA">目前已經是測試帳號</string>
+    <string name="ALBUM_SDCARD">記憶卡相簿</string>
+    <string name="ALBUM_SOURCE">手機相簿</string>
+    <string name="ALL_SAME">全部套用</string>
+    <string name="APPLY_TO_PRINTER">套用到印相機</string>
+    <string name="APPLY_WIFI_SSID_HINT">套用以上印相機名稱與密碼至：</string>
+    <string name="APP_VERSION">App版本:</string>
+    <string name="AP_CHANGE_DONE">點對點(Ad-hoc Mode)模式</string>
+    <string name="ASK_SEL_PRINTER_MODEL">請選擇印相機型號</string>
+    <string name="AUTO_POWER_OFF">自動關機設定:</string>
+    <string name="AutoPowerOff_Title">自動關機設定</string>
+    <string name="BACK_HINT">再次按下後退按鈕即可退出</string>
+    <string name="BORDERTTITLE">邊框設定</string>
+    <string name="BORDER_TITLE">讀取印相機記憶卡中</string>
+    <string name="BRIGHTFACE">亮面</string>
+    <string name="BURN_FIRMWARE_CHECK_DATA">正在比對韌體檔案....</string>
+    <string name="BURN_FIRMWARE_SAME_VERSION">已完成更新最新韌體至印表機</string>
+    <string name="BURN_FIRMWARE_SUCCESS">更新韌體中，更新時請勿關閉印表機或切斷電源開關。更新完畢後會自動重新開機，開機完成後方可繼續列印使用。</string>
+    <string name="BurnFirmwareActivity_m_TitleTextView">韌體更新中</string>
+    <string name="CAMERA_SOURCE">相機拍照</string>
+    <string name="CANCEL">取消</string>
+    <string name="CHANGE_WIFI_MODE">請切換手機Wi-Fi至指定SSID</string>
+    <string name="CHECK_PRINT">是否列印？</string>
+    <string name="CHECK_PRINT_STATUS">正在確認印相機狀態</string>
+    <string name="CHECK_SHARE_PHOTO">檔案已儲存，是否要分享相片？</string>
+    <string name="CLEAN_ERROR_COVER_NOT_OPEN">色帶或相紙尚未取出，請取出</string>
+    <string name="CLEAN_LATER">稍後再說</string>
+    <string name="CLEAN_MODE_DONE">已清潔完畢，請移除清潔紙與分紙片</string>
+    <string name="CLEAN_MODE_HINT">您已列印超滿120張，為了維護列印品質，建議您至設定區，透過「清潔模式」搭配使用清潔工具組來清潔印相機。</string>
+    <string name="CLEAN_MODE_STEP1">請取出印相機內的色帶匣及紙匣內的相紙，接著放入分紙器及清潔紙。</string>
+    <string name="CLEAN_MODE_STEP2">放入清潔紙前，先將其正反面的黃色保護膜撕去</string>
+    <string name="CLEAN_MODE_STEP3">請確定清潔紙正面朝上，依照箭頭方向將清潔紙放入紙匣內</string>
+    <string name="CLEAN_MODE_STEP4">按下一步開始執行清潔程序</string>
+    <string name="CLEAN_MODE_TITLE">清潔模式</string>
+    <string name="CLEAN_MODE_WAIT_MESSAGE">處理中，請稍候</string>
+    <string name="CLEAN_NEXT_STEP">下一步</string>
+    <string name="CLEAN_NOW">現在清潔</string>
+    <string name="CLEAN_STEP1">步驟1.</string>
+    <string name="CLEAN_STEP2">步驟2.</string>
+    <string name="CLEAN_STEP3">步驟3.</string>
+    <string name="CLEAN_STEP4">步驟4.</string>
+    <string name="CLOSE_INFRA_MODE">關閉路由器(Infra Mode)模式</string>
+    <string name="COMMON_PRINT_HINT">"
+排除印相機問題後，
+可按列印鍵繼續列印。"</string>
+    <string name="COMPARE_BORDER">比對中</string>
+    <string name="COMPLETE">完成</string>
+    <string name="CONNECTING">連線中…</string>
+    <string name="CONN_SEARCHING">網路搜尋中…</string>
+    <string name="CONN_SUCCESS">建立連線</string>
+    <string name="CONTRAST">對比</string>
+    <string name="CREATE_BITMAP_ERROR_PHOTO_RATIO">照片比例不符合</string>
+    <string name="CREATE_BITMAP_FILE_FORMAT">抱歉，圖檔解析失敗</string>
+    <string name="CREATE_BITMAP_OUT_OF_MEMORY">記憶體不足，點選確認後將會離開編輯畫面，請稍候再試，造成不便請見諒</string>
+    <string name="CREATE_BITMAP_SD_CARD_MAYBE_FULL">SD卡已滿</string>
+    <string name="CREATE_BITMAP_SD_CARD_NOT_EXIST">SD卡不存在</string>
+    <string name="CREATE_BITMAP_SIZE_IS_ZERO">照片檔案錯誤</string>
+    <string name="CREATE_BITMAP_SOURCE_NOT_FOUND">找不到照片</string>
+    <string name="CREATE_BITMAP_UNKNOWN">照片檔案錯誤</string>
+    <string name="CURRENT_AUTO_POWER_OFF_TIME">目前自動關機設定:</string>
+    <string name="DATA_DELIVERY">資料傳遞中…</string>
+    <string name="DECODE_FAILURE">圖片載入失敗，請重新載入相簿</string>
+    <string name="DELBORDER">刪除邊框</string>
+    <string name="DELBORDERTITLE">邊框刪除</string>
+    <string name="DESCRIPTION">Content Description</string>
+    <string name="DIALOG_CLOSE">關閉</string>
+    <string name="DIALOG_CONN_WIFI_SEL_CURRENT">"目前連線：
+"</string>
+    <string name="DIALOG_CONN_WIFI_SEL_LAST">"上次連線：
+"</string>
+    <string name="DIALOG_CONN_WIFI_TITLE">請選擇連線</string>
+    <string name="DIALOG_LEAVE_MSG1">"取消列印，是否回到上一頁？
+如否，則回到首頁"</string>
+    <string name="DISCONNECT">連線中斷</string>
+    <string name="DUPLEX_2UP_NUMBER_HINT">照片張數錯誤，如選擇4x6雙面列印，照片張數須要選擇4的倍數，如選擇6x6或6x8雙面列印，照片張數須要選擇2的倍數。請回前一頁繼續選擇照片</string>
+    <string name="EDIT_EFFECT">each kind of effects</string>
+    <string name="EDIT_PREVIEW">preview monitor</string>
+    <string name="ERROR">發生錯誤</string>
+    <string name="ERROR_BUSY_INITIAL">印相機忙線中</string>
+    <string name="ERROR_FIND_NO_STORAGEID">請確認隨身碟或記憶卡是否有效連結至印表機</string>
+    <string name="ERROR_MODEL">所連結印相機機型與Prinbiz App內所選機型不同，請再確認！</string>
+    <string name="ERROR_PRINTER_0001">請取出已印好的相片。</string>
+    <string name="ERROR_PRINTER_0100">0100: 印相機蓋開啟，請關閉。</string>
+    <string name="ERROR_PRINTER_0100_P310W">0100: 印相機蓋開啟或未放置色帶，請關閉印相機蓋或放入色帶</string>
+    <string name="ERROR_PRINTER_0101">0101: 印相機蓋開啟，請關閉。</string>
+    <string name="ERROR_PRINTER_0102">0102: 印相機蓋開啟，請關閉。</string>
+    <string name="ERROR_PRINTER_0201">0201: 請確認色帶安裝正確。</string>
+    <string name="ERROR_PRINTER_0203">0203: 請確認色帶型號為支援版本。</string>
+    <string name="ERROR_PRINTER_0300">0300: 色帶已用完，請更換色帶。</string>
+    <string name="ERROR_PRINTER_0301">0301: 色帶錯誤!請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0302">0302: 色帶錯誤!請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0400">0400: 請確認紙捲安裝正確。</string>
+    <string name="ERROR_PRINTER_0400_1">0400: 請確認相紙放置正確。</string>
+    <string name="ERROR_PRINTER_0401">0401: 相紙用完！請更換紙捲。</string>
+    <string name="ERROR_PRINTER_0500">0500: 卡紙！請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0501">0501: 卡紙！請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0502">0502: 卡紙！請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0503">0503: 卡紙！請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0504">0504: 卡紙！請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0505">0505: 卡紙！請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0506">0506: 卡紙！請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0507">0507: 卡紙！請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0508">0508: 卡紙！請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0509">0509: 卡紙！請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0510">0510: 卡紙！請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0511">0511: 卡紙！請參閱產品使用手冊。</string>
+    <string name="ERROR_PRINTER_0600">0600: 紙捲尺寸與色帶不符。</string>
+    <string name="ERROR_PRINTER_0700">0700: 機械錯誤! 請聯絡最近的代理商或經銷商以取得進一步的協助</string>
+    <string name="ERROR_PRINTER_0900">0900: 資料存取錯誤! 請聯絡最近的代理商或經銷商以取得進一步的協助</string>
+    <string name="ERROR_PRINTER_1000">1000: 色帶讀取錯誤! 請嘗試更換色帶列印以確認錯誤是否仍發生，如是，請聯絡最近的代理商或經銷商以取得進一步的協助</string>
+    <string name="ERROR_PRINTER_1200">1200: 加熱錯誤! 請聯絡最近的代理商或經銷商以取得進一步的協助</string>
+    <string name="ERROR_PRINTER_1200_P301W">1200: 加熱錯誤! 請聯絡最近的代理商或經銷商以取得進一步的協助</string>
+    <string name="ERROR_PRINTER_1300">1300: 無法更新印相機韌體。請重新更新，或將印相機重新開機。</string>
+    <string name="ERROR_PRINTER_1500">1500: 裁切錯誤! 請檢查是否有紙屑阻礙在出紙口附近，如是，請移除紙屑並再嘗試列印。如問題持續發生，請聯絡最近的代理商或經銷商以取得進一步的協助</string>
+    <string name="ERROR_PRINTER_BUSY">印相機忙碌中</string>
+    <string name="ERROR_PRINTER_CHECKED">錯誤排除後請點擊 [確定]，然後請再試一次。</string>
+    <string name="ERROR_PRINTER_CONNECT">"無法連線，請嘗試以下動作，然後連接到印相機：
+- 中斷目前的 Wi-Fi 連線。
+- 重新啟動印相機。
+- 重新啟用裝置的 Wi-Fi 功能。"</string>
+    <string name="ERROR_PRINTER_FIRMWARE_NO_CAPABILITY">無法更新韌體</string>
+    <string name="ERROR_PRINTER_FIRMWARE_UPDATE">無法更新印相機韌體，請務必使用 Pringo應用程式來更新印相機韌體</string>
+    <string name="ERROR_PRINTER_INITIALIZING">印相機正在起始中</string>
+    <string name="ERROR_PRINTER_STATE_UNUSUAL">印相機狀態異常</string>
+    <string name="ERROR_PRINTER_TIMEOUT">"連線逾時，請嘗試以下動作，然後連接到印相機：
+- 中斷目前的 Wi-Fi 連線。
+- 重新啟動印相機。
+- 重新啟用裝置的 Wi-Fi 功能。"</string>
+    <string name="ERROR_PRINTER_UNKNOWN">未知的錯誤</string>
+    <string name="FIRMWARE_VERSION">印相機韌體版本:</string>
+    <string name="GETTING_DATA_FROM_PRINTER">從印相機讀取資料中</string>
+    <string name="HINT">提示</string>
+    <string name="HINT_MSG">如離開目前畫面，所有已選取照片將會取消選取</string>
+    <string name="HINT_TITLE">注意</string>
+    <string name="HOD_MSG">增加色彩的階調深度，以豐富影像的層次，使相片看起來更立體、銳利。</string>
+    <string name="IDSETTITLE">證件照設定</string>
+    <string name="IDTXT">證件照</string>
+    <string name="ID_DISTRICT">地區</string>
+    <string name="ID_MSG">請選擇證件照列印的預設選項</string>
+    <string name="ID_STYLE">證件照尺寸</string>
+    <string name="ID_UI">列印尺寸</string>
+    <string name="IMPORTBORDER">匯入邊框</string>
+    <string name="IMPORT_BORDER">匯入中</string>
+    <string name="IMPORT_DONE">完成</string>
+    <string name="INFO_TITLE">Prinbiz說明</string>
+    <string name="INFRA_CHANGE_DONE">路由器(Infra Mode)模式</string>
+    <string name="INFRA_NO_SSID">請輸入正確SSID</string>
+    <string name="INFRA_PRINTER_SSID">印相機名稱:</string>
+    <string name="INFRA_SETTING">修改印相機連線設定</string>
+    <string name="INFRA_WIFI_PASSWORD">Wi-Fi 密碼</string>
+    <string name="INFRA_WIFI_SETTINGS">路由器模式(Infra Mode)設定:</string>
+    <string name="INFRA_WIFI_SSID">Wi-Fi SSID</string>
+    <string name="LEAVE_COLLAGE_MSG">如果離開編輯區，編輯中的檔案將會遺失，是否確認離開？</string>
+    <string name="LEAVE_COLLAGE_TITLE">離開編輯</string>
+    <string name="LEAVE_COLLAGE_TO_PRINT">編輯完成，準備列印，一旦進入列印畫面，將無法回去繼續編輯內容，是否繼續？</string>
+    <string name="LEAVE_PRINT_ID_PHOTO_MSG">證件照尚未列印。如果離開，檔案將會遺失。是否離開？</string>
+    <string name="LEAVE_PRINT_ID_PHOTO_TITLE">離開列印</string>
+    <string name="LIFETEXT">一般沖印</string>
+    <string name="LIGHT">亮度</string>
+    <string name="LOADING_IMAGE">截取圖片中…</string>
+    <string name="LOGIN">登入</string>
+    <string name="LOGIN_OK">登入成功</string>
+    <string name="MEDIA_SIZE">4x6</string>
+    <string name="MIN">分</string>
+    <string name="MINS">分</string>
+    <string name="MODIFY_DEFAULT_CONNECTION_1">請問你想要將現在連線的印相機(</string>
+    <string name="MODIFY_DEFAULT_CONNECTION_2">")
+儲存成預設值嗎？"</string>
+    <string name="MSG_ACCOUNT_PWD_WRONG">帳號或密碼錯誤</string>
+    <string name="MSG_FACE">請選擇列印的預設選項</string>
+    <string name="MSG_MODE_WARNING">當前印相機Wi-Fi為路由器(Infra Mode)模式，無法更改點對點(Ad-hoc Mode)模式下的相關設定。</string>
+    <string name="MSG_PRINTOUT">列印尺寸</string>
+    <string name="MSG_PWD">密碼:</string>
+    <string name="MSG_PWD_CHECK">請輸入印相機密碼</string>
+    <string name="MSG_PWD_WRONG">密碼錯誤</string>
+    <string name="MSG_SHARPEN">銳利度調整</string>
+    <string name="MUST_UPDATE_FIRMWARE">使用路由器(Infra Mode)模式前，請先更新印相機韌體</string>
+    <string name="NEED_WIFI_DONGLE_HINT">親愛的使用者您好，提醒您如要透過Prinbiz App作列印，印相機需要搭配無線網路接收器(Wireless USB Dongle)才可支援無線Wifi傳輸列印</string>
+    <string name="NFC_APPLY_BUTTON">NFC</string>
+    <string name="NFC_APPROACH_TAG">"
+ 請將手機靠近NFC"</string>
+    <string name="NFC_APPROCH_TO_READ_MSG">請將手機靠近NFC位置</string>
+    <string name="NFC_APP_NAME_NOT_MATCH">NFC Tag中的APP種類不合</string>
+    <string name="NFC_FORMATE_NOT_SUPPORT">不支援此種NFC Tag格式</string>
+    <string name="NFC_IS_WRITING">NFC寫入中…</string>
+    <string name="NFC_PRINTER_MODEL_NOT_MATCH">NFC Tag中的印相機型號不合</string>
+    <string name="NFC_READ_FAIL">NFC讀取失敗，請再試一次</string>
+    <string name="NFC_READ_FORMATE_FALSE">NFC格式錯誤</string>
+    <string name="NFC_READ_INFO">"燒錄印相機WiFi SSID與密碼至NFC時，請將手機靠近NFC。
+
+ 並非所有的Android手機都支援NFC的讀取與燒錄，如有問題請洽您的手機製造商。
+
+ 請確認您NFC中的印相機WiFi SSID與密碼和印相機的WiFi SSID與密碼一致，否則無法透過NFC來做印相機的連結。"</string>
+    <string name="NFC_READ_NO_SSID">NFC中尚未偵測到印相機名稱</string>
+    <string name="NFC_READ_SUCCESS">NFC中讀取到的印相機名稱為</string>
+    <string name="NFC_READ_TAG_INFO">查詢NFC中的印相機WiFi SSID</string>
+    <string name="NFC_SET_SSID_AND_PASSWORD_MSG">您要同步將新的印相機名稱與密碼燒錄至NFC中嗎？</string>
+    <string name="NFC_TAG_PASSWORD">NFC中的密碼:</string>
+    <string name="NFC_TAG_SSID">NFC中的印相機名稱:</string>
+    <string name="NFC_WIFI_CONNECT_FAIL">與印相機的WiFi建立連線失敗</string>
+    <string name="NFC_WIFI_CONNECT_SUCCESSS">已成功與印相機的WiFi建立連線</string>
+    <string name="NFC_WIFI_UNDETECT">尚未偵測到印相機，請透過手機Wi-Fi或NFC感應與印相機的Wi-Fi做連線。</string>
+    <string name="NFC_WRITE_DIALOG">確認將新的印相機名稱與密碼燒錄至NFC中？</string>
+    <string name="NFC_WRITE_FAIL">NFC寫入失敗</string>
+    <string name="NFC_WRITE_SUCCESS">NFC寫入成功</string>
+    <string name="NOPAPER">沒有紙！請更換新的紙捲。</string>
+    <string name="NOPHOTO">没有圖片</string>
+    <string name="NOTHUMBNAIL">沒有縮圖</string>
+    <string name="NOT_ASK_AGAIN">不再詢問</string>
+    <string name="NOT_SUPPORT_STORAGE">印表機不支援外接儲存裝置</string>
+    <string name="NOW_WIFI">Wi-Fi:</string>
+    <string name="NO_MATCH_BORDER_NAME">無邊框，請檢查檔案及目錄名稱是否符合命名規則</string>
+    <string name="NO_SEL_PHOTO">您未選取任何照片</string>
+    <string name="NO_SHOW_AGAIN">不再顯示</string>
+    <string name="NO_THUMB_SEL">尚未選取照片</string>
+    <string name="NUMTAIL">張照片</string>
+    <string name="OFF">關閉</string>
+    <string name="OK">確認</string>
+    <string name="ONE_SELECT">image button for function</string>
+    <string name="OPEN_INFRA_MODE">開啟路由器(Infra Mode)模式</string>
+    <string name="PAGE_DUPLEX">雙面列印</string>
+    <string name="PAGE_SINGLE">單面列印</string>
+    <string name="PAPER_JAM_DONE">進紙錯誤已排除！是否重新列印尚未列印完成的相片？</string>
+    <string name="PAPER_JAM_MESSAGE">"進紙錯誤！請完成以下步驟後，點選「確認」按鈕進行進紙錯誤的排除：
+1. 打開色帶匣 
+2. 取出色帶(如不取出，有機會捲掉一張色帶及產生異音) 
+3. 關閉色帶匣"</string>
+    <string name="PAPER_JAM_TITLE">進紙錯誤</string>
+    <string name="PAPER_JAM_WAITING">進紙錯誤排除中，請勿離開此畫面…</string>
+    <string name="PASSWORD">密碼</string>
+    <string name="PASSWORD_SETTING">密碼設定</string>
+    <string name="PASSWORD_SETTING_ALERT_MSG">此密碼僅接受5或13個字元</string>
+    <string name="PLEASE_CONNECT_NETWORK">請確認印相機連線。</string>
+    <string name="PLEASE_INPUT_INFRA_WIFI_SSID">請輸入 Wi-Fi SSID</string>
+    <string name="PLEASE_INPUT_PASSWORD">請輸入密碼</string>
+    <string name="PLEASE_INPUT_PRINTER_WIFI_SSID">請輸入Wi-Fi SSID</string>
+    <string name="PLEASE_SELECT_NETWORK">請選擇Wifi來源</string>
+    <string name="PLEASE_SELECT_OTHER_CAMERA_APP">請選擇其他相機應用程式</string>
+    <string name="PLEASE_WAIT">請稍候…</string>
+    <string name="POOL_TITLE">請選擇列印張數</string>
+    <string name="PRINTER_DETECT">尚未偵測到印相機，請確認您手機的Wi-Fi功能已開啟，並與印相機的Wi-Fi做連線</string>
+    <string name="PRINTER_MODEL">印相機型號</string>
+    <string name="PRINTER_STATUS">印相機狀態:</string>
+    <string name="PRINTER_STATUS_IDLE">準備就緒</string>
+    <string name="PRINTER_STATUS_INITIALIZING">啟動中</string>
+    <string name="PRINTER_STATUS_PAUSED">暫停</string>
+    <string name="PRINTER_STATUS_PRINTING">列印中</string>
+    <string name="PRINTER_UNDETECT">尚未偵測到印相機</string>
+    <string name="PRINTER_WIFI_SET">印相機</string>
+    <string name="PRINTER_WIFI_SETTINGS">點對點(Ad-hoc Mode)設定:</string>
+    <string name="PRINTER_WIFI_SSID">印相機Wi-Fi SSID</string>
+    <string name="PRINT_BUSY">列印中…</string>
+    <string name="PRINT_COPIES">列印張數</string>
+    <string name="PRINT_DONE">列印完成</string>
+    <string name="PRINT_DONE_NUM">印出張數：</string>
+    <string name="PRINT_MAKE_IMAGE">圖片準備中……</string>
+    <string name="PRINT_NONE">照片全數取消列印</string>
+    <string name="PRINT_PAUSE">暫停中</string>
+    <string name="PRINT_QUALITY">列印方式</string>
+    <string name="PRINT_STATUS">列印狀態：</string>
+    <string name="PRINT_WAITING">待機中</string>
+    <string name="PrinterList">請選擇印相機</string>
+    <string name="PrinterScan">尋找印相機</string>
+    <string name="QTY_HOD">HOD</string>
+    <string name="QTY_NORMAL">標準</string>
+    <string name="QTY_REFINEMENT">精緻</string>
+    <string name="QTY_TO_LARGE">"圖檔過小, 調整將影響畫質. 
+ 請問是否接受?"</string>
+    <string name="QUALITY_TITLE">品質調整</string>
+    <string name="QUICKTXT">快速沖印</string>
+    <string name="REQUESTDENIED">連線失敗</string>
+    <string name="ROOT">記憶卡主目錄</string>
+    <string name="SATURATION">飽和度</string>
+    <string name="SCALE_TO_LARGE">"圖檔需調整，將影響畫質。
+請問是否接受？"</string>
+    <string name="SDCARD_SOURCE">印相機記憶卡</string>
+    <string name="SD_CARD_NOT_READYING">SD記憶卡尚未就緒</string>
+    <string name="SEARCH_BORDER">搜尋中</string>
+    <string name="SECS">秒</string>
+    <string name="SELNUM">1</string>
+    <string name="SELSUM">合計：</string>
+    <string name="SEL_ALL">全選</string>
+    <string name="SENDED_DONE_NUM">已傳張數：</string>
+    <string name="SETTING_DATA_TO_PRINTER">正在將資料傳送至印相機</string>
+    <string name="SET_AUTO_POWER_SUCCESS">自動關機設定已變更</string>
+    <string name="SET_COLLAGE">邊框設定</string>
+    <string name="SET_DONE">設定完成</string>
+    <string name="SET_ID">證件照設定</string>
+    <string name="SET_LIFE">一般沖印設定</string>
+    <string name="SET_PRINTER">印相機設定</string>
+    <string name="SET_QUICK">快速沖印設定</string>
+    <string name="SET_SSID_AND_PASSWORD_FAIL">"無法變更's Wi-Fi SSID 與密碼"</string>
+    <string name="SET_SSID_AND_PASSWORD_SUCCESS">已變更印相機 Wi-Fi SSID 與密碼</string>
+    <string name="SET_TITLE">設定</string>
+    <string name="SHADOWFACE">霧面</string>
+    <string name="SHARE_PHOTO_TO">分享Prinbiz相片至……</string>
+    <string name="SIXTY_MINUTES">60 分鐘</string>
+    <string name="SIZE_NOT_MATCH">設定尺寸:與印相機相紙尺寸:不合</string>
+    <string name="SIZE_OVER_25">圖片大小超過25MB</string>
+    <string name="SIZE_TO_SMALL">"圖檔仍過大，若壓縮將影響畫質。
+請問是否接受？"</string>
+    <string name="SNAPTXT">即拍即印</string>
+    <string name="SNAP_PRINT_MSG">親愛的使用者您好，您目前在使用即拍即印模式，請確認已與印相機完成Wifi連線，您所拍的照片將會立即被列印。列印選項的預設值，可至設定區調整。</string>
+    <string name="SNAP_PRINT_TITLE">即拍即印模式</string>
+    <string name="SPLITE">/</string>
+    <string name="STORAGE_ACCESS_DENIED">記憶卡讀取佔線中。請稍後再試</string>
+    <string name="SUGGEST_UPDATE_FIRMWARE">印相機之驅動韌體已有更新版本；更新印相機韌體可提昇列印品質，建議您按一下「確定」繼續更新流程。</string>
+    <string name="SWITCH_PRINTER_MODEL">切換印相機型號</string>
+    <string name="THE_LAST_FIRMWARE">最新韌體版本:</string>
+    <string name="THUMB_LOADING">圖片擷取中…</string>
+    <string name="TITLE_PHOTO">相簿名稱</string>
+    <string name="TITLE_SOURCE">請選擇相片來源</string>
+    <string name="TITLE_WIFI_SETTING">印相機Wi-Fi設定</string>
+    <string name="TWENTY_MINUTES">20 分鐘</string>
+    <string name="TWO_ORIGIN">where photo come from</string>
+    <string name="UI_SCALE">列印尺寸：</string>
+    <string name="UNABLE_TO_CONNECT_TO_PRINTER">無法連線到印表機</string>
+    <string name="WARNNING">目前狀態</string>
+    <string name="WARRING_CROP_DONOTASK">不再提示</string>
+    <string name="WARRING_CROP_GENERAL">Prinbiz列印時會按照您所選取的耗材尺寸做列印，如果您選的照片與耗材尺寸比例不同，可能會發生照片被裁切的問題。如果想確認實際列印範圍，可在編輯區開啟照片查看。</string>
+    <string name="WARRING_CROP_QUICK">Prinbiz列印時會按照您所選取的耗材尺寸做列印，如果您選的照片與耗材尺寸比例不同，可能會發生照片被裁切的問題。為了避免此問題的發生，請選擇與列印耗材相同比例的照片。</string>
+    <string name="WiFiChanged">印相機WiFi名稱已變更，請重新連線到新的印相機WiFi名稱</string>
+    <string name="app_name">Prinbiz</string>
+    <string name="descriptions">"1.提升WiFi連線穩定度
+2.提升列印品質"</string>
+    <string name="descriptions_p310w">"1.提升WiFi連線穩定度
+2.提升列印品質"</string>
+    <string name="descriptions_p520l">"1.提升WiFi連線穩定度
+2.提升列印品質"</string>
+    <string name="descriptions_p530D">"1.提升WiFi连接稳定度
+2.提升打印质量"</string>
+    <string name="descriptions_p750l">"1.提升WiFi連線穩定度
+2.提升列印品質"</string>
+</resources>

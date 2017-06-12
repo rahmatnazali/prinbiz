@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_TitleBarRLyout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+        <TextView android:id="@id/m_TitleTextView" style="@style/titleStyle" />
+    </RelativeLayout>
+    <ListView android:id="@id/m_SettingAttrListView" android:layout_width="-1" android:layout_height="-2" android:layout_above="@id/m_ConfirmButton" android:layout_below="@id/m_TitleBarRLyout" />
+    <ImageButton android:gravity="11" android:id="@id/m_ConfirmButton" android:background="@drawable/button_msg_ok" android:paddingTop="1dp" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/button_yes" android:layout_alignParentBottom="true" android:contentDescription="@string/DESCRIPTION" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-2" android:layout_height="-2"
+    <RelativeLayout android:background="@color/WHITE" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="15dp">
+        <TextView android:textSize="16sp" android:textColor="@color/SETTING_ORANGE" android:id="@id/m_CropTitle" android:layout_width="-2" android:layout_height="-2" android:text="@string/HINT_TITLE" />
+        <TextView android:textSize="14sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_CropMSG" android:layout_width="-2" android:layout_height="-2" android:text="@string/HOD_MSG" android:layout_below="@id/m_CropTitle" />
+        <CheckBox android:textSize="12sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_NotAgainCheckBox" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:button="@drawable/button_select" android:text="@string/WARRING_CROP_DONOTASK" android:layout_below="@id/m_CropMSG" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/m_CropcloseImageButton" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_delete" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/DESCRIPTION" android:layout_alignParentEnd="true" />
+</RelativeLayout>

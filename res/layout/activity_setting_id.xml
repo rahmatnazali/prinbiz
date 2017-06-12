@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_TitleBarRLyout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+        <TextView android:id="@id/m_TitleTextView" android:text="@string/IDSETTITLE" style="@style/titleStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_ContentLLayout" android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/m_IdSetOKImageButton" android:layout_below="@id/m_TitleBarRLyout"
+        <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <TextView android:textSize="18sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_MSGTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="@string/ID_MSG" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <Spinner android:gravity="1" android:id="@id/m_RegionSpinner" android:layout_width="-2" android:layout_height="45dp" android:layout_marginTop="10dp" android:layout_marginBottom="5dp" android:prompt="@string/ID_DISTRICT" android:layout_below="@id/m_MSGTextView" android:layout_centerHorizontal="true" android:dropDownWidth="170dp" />
+            <RelativeLayout android:id="@id/m_StyleLayout" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_below="@id/m_RegionSpinner" android:layout_centerHorizontal="true">
+                <TextView android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/textView2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" android:text="@string/ID_STYLE" android:layout_alignParentTop="true" />
+                <Spinner android:gravity="1" android:id="@id/m_StyleSpinner" android:layout_width="-2" android:layout_height="45dp" android:prompt="@string/ID_STYLE" android:layout_below="@id/textView2" android:layout_centerHorizontal="true" android:dropDownWidth="170dp" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/m_PrintoutLayout" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_below="@id/m_StyleLayout" android:layout_centerHorizontal="true">
+                <TextView android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/textView3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" android:text="@string/ID_UI" android:layout_alignLeft="@id/m_UISpinner" />
+                <Spinner android:gravity="1" android:id="@id/m_UISpinner" android:layout_width="-2" android:layout_height="45dp" android:prompt="@string/ID_UI" android:layout_below="@id/textView3" android:layout_centerHorizontal="true" android:dropDownWidth="170dp" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/m_MethodLayout" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_below="@id/m_PrintoutLayout" android:layout_centerHorizontal="true">
+                <TextView android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_HODTitleTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/PRINT_QUALITY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <RadioGroup android:gravity="10" android:orientation="0" android:id="@id/m_HODRadioGroup" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_below="@id/m_HODTitleTextView" android:layout_centerHorizontal="true">
+                    <RadioButton android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_NormalItem" android:layout_width="-2" android:layout_height="-2" android:button="@drawable/button_select" android:text="@string/QTY_NORMAL" />
+                    <RadioButton android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_HODItem" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:button="@drawable/button_select" android:text="@string/QTY_HOD" />
+                    <ImageButton android:id="@id/m_InfoHODImageView" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:src="@drawable/button_info_orange" android:contentDescription="@string/DESCRIPTION" />
+                </RadioGroup>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/m_SharpenLayout" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_below="@id/m_MethodLayout" android:layout_centerHorizontal="true">
+                <TextView android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_SharpenTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/MSG_SHARPEN" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <LinearLayout android:orientation="0" android:id="@id/m_NumberLinearLayout" android:paddingLeft="1dp" android:paddingRight="1dp" android:layout_width="296dp" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="@id/m_SharpenTextView" android:layout_alignLeft="@id/m_SharpenSeekBar" />
+                <SeekBar android:id="@id/m_SharpenSeekBar" android:layout_width="296dp" android:layout_height="-2" android:maxHeight="15dp" android:max="8" android:progress="4" android:progressDrawable="@drawable/scale" android:minHeight="15dp" android:thumb="@drawable/button_sharpen_circle" android:thumbOffset="0dp" android:layout_below="@id/m_NumberLinearLayout" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <ProgressBar android:id="@id/m_WaitingProgressBar" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+    <ImageButton android:id="@id/m_IdSetOKImageButton" android:background="@drawable/button_msg_ok" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/button_yes" android:layout_alignParentBottom="true" android:contentDescription="@string/DESCRIPTION" />
+</RelativeLayout>

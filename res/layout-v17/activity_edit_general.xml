@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@id/RelativeLayout1" android:background="@color/BACKGROUND_EDIT" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_TitleLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/m_PoolBackButton" android:background="0x106000d" android:padding="@dimen/pool_padding_button" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:src="@drawable/button_pool" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="15dp" android:layout_alignParentEnd="true" />
+        <TableRow android:orientation="0" android:id="@id/tableRow1" android:layout_width="-2" android:layout_height="-2" android:baselineAligned="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ImageButton android:id="@id/m_ReduceButton" android:background="0x106000d" android:padding="@dimen/pool_padding_button" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_edit_reduce" />
+            <TextView android:textColor="@color/WHITE" android:gravity="11" android:id="@id/m_CopiesTextView" android:layout_width="25dp" android:layout_height="-1" />
+            <ImageButton android:id="@id/m_AddButton" android:background="0x106000d" android:padding="@dimen/pool_padding_button" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_edit_add" />
+        </TableRow>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_ContentLayout" android:layout_width="-1" android:layout_height="200dp" android:layout_above="@id/m_EffectLayout" android:layout_below="@id/m_TitleLayout"
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2"
+            <RelativeLayout android:gravity="11" android:id="@id/m_ImageRelativeLayout" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true" />
+            <ImageButton android:id="@id/m_PreviousImageButton" android:background="@drawable/button_previous_photo" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/desc" android:layout_alignParentStart="true" />
+            <ImageButton android:id="@id/m_NextImageButton" android:background="@drawable/button_next_photo" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/desc" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/m_SetRLayout" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:layout_alignParentTop="true">
+            <ImageButton android:id="@id/m_RotateButton" android:background="0x106000d" android:padding="@dimen/edit_padding_button_large" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_rotate" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/WHITE" android:id="@id/m_NumIdTextView" android:layout_width="-2" android:layout_height="-2" android:layout_alignBottom="@id/m_RotateButton" android:layout_centerInParent="true" />
+            <ImageButton android:id="@id/m_ResetButton" android:background="0x106000d" android:padding="@dimen/edit_padding_button_large" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_reset" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <ImageButton android:id="@id/m_FilterColorImageButton" android:background="0x106000d" android:padding="@dimen/pool_padding_button" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_color" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/desc" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_FilterSelectorLayout" android:layout_width="-1" android:layout_height="-2" android:layout_alignBottom="@id/m_ContentLayout"
+        <RelativeLayout android:id="@id/m_FilterColorLayout" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+            <com.hiti.plugins.common.FilterRGBColorSelector android:id="@id/m_FilterColorSelector" android:clickable="true" android:layout_width="-1" android:layout_height="-2" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_EffectLayout" android:layout_width="-1" android:layout_height="-2" android:layout_above="@id/m_BottomLayout"
+        <RelativeLayout android:id="@id/m_BorderRelativeLayout" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true">
+            <com.hiti.ui.horizontallistview.HorizontalListView android:id="@id/m_BorderHorizontalListView" android:scrollbars="0" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/m_FilterRelativeLayout" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true">
+            <com.hiti.ui.horizontallistview.HorizontalListView android:id="@id/m_FilterHorizontalListView" android:scrollbars="0" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="10" android:id="@id/m_BottomLayout" android:background="@color/EDIT_BOTTOM_BAR" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/m_BorderButton" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/border_button_clicked" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+        <ImageButton android:id="@id/m_FxButton" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/fx_button" android:layout_toRightOf="@id/m_BorderButton" android:layout_toEndOf="@id/m_BorderButton" />
+        <ImageButton android:id="@id/m_SaveButton" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_save" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

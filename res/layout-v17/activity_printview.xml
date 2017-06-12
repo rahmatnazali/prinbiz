@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_TitleLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/BottomLayout" android:layout_below="@id/m_TitleLayout">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0">
+            <LinearLayout android:orientation="1" android:id="@id/m_ContentLayout" android:layout_width="-1" android:layout_height="-1">
+                <RelativeLayout android:id="@id/TextureLayout" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0">
+                    <RadioGroup android:orientation="0" android:id="@id/m_TextureRadioGroup" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+                        <RadioButton android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_BrightRadio" android:layout_width="-2" android:layout_height="-2" android:checked="true" android:button="@drawable/button_select" android:text="@string/BRIGHTFACE" />
+                        <RadioButton android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_ShadowRadio" android:layout_width="-2" android:layout_height="-2" android:button="@drawable/button_select" android:text="@string/SHADOWFACE" />
+                    </RadioGroup>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/m_DuplexLayout" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0">
+                    <RadioGroup android:orientation="0" android:id="@id/m_DuplexRadioGroup" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+                        <RadioButton android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_PageSingoRadio" android:layout_width="-2" android:layout_height="-2" android:checked="true" android:button="@drawable/button_select" android:text="@string/PAGE_SINGLE" />
+                        <RadioButton android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_PageDuplexRadio" android:layout_width="-2" android:layout_height="-2" android:button="@drawable/button_select" android:text="@string/PAGE_DUPLEX" />
+                    </RadioGroup>
+                </RelativeLayout>
+                <RelativeLayout android:gravity="11" android:id="@id/m_QualityLayout" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0">
+                    <TextView android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_QualityTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/PRINT_QUALITY" />
+                    <RadioGroup android:gravity="10" android:orientation="0" android:id="@id/m_QualityRadioGroup" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="@id/m_QualityTextView">
+                        <RadioButton android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_NormalRadio" android:paddingTop="3dp" android:layout_width="-2" android:layout_height="-2" android:checked="true" android:button="@drawable/button_select" android:text="@string/QTY_NORMAL" />
+                        <RadioButton android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_RefineRadio" android:paddingTop="3dp" android:layout_width="-2" android:layout_height="-2" android:button="@drawable/button_select" android:text="@string/QTY_REFINEMENT" />
+                        <ImageButton android:id="@id/m_InfoHODImageView" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:src="@drawable/button_info_orange" android:contentDescription="@string/DESCRIPTION" android:layout_marginStart="5dp" />
+                    </RadioGroup>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/m_SharpenLayout" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0"
+                    <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+                        <TextView android:textSize="16sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_SharpenTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/MSG_SHARPEN" android:layout_centerHorizontal="true" />
+                        <LinearLayout android:orientation="0" android:id="@id/m_NumberLinearLayout" android:paddingLeft="3dp" android:paddingRight="3dp" android:layout_width="296dp" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="@id/m_SharpenTextView" android:layout_alignLeft="@id/m_SharpenSeekBar" android:layout_alignStart="@id/m_SharpenSeekBar" />
+                        <SeekBar android:id="@id/m_SharpenSeekBar" android:layout_width="296dp" android:layout_height="-2" android:maxHeight="15dp" android:max="8" android:progress="1" android:progressDrawable="@drawable/scale" android:minHeight="15dp" android:thumb="@drawable/button_sharpen_circle" android:thumbOffset="0dp" android:layout_below="@id/m_NumberLinearLayout" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/m_PrinterStateLayout" android:padding="5dp" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:layout_weight="1.0">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+                <TableRow android:id="@id/tableRow1" android:layout_width="-1" android:layout_height="-2">
+                    <RelativeLayout android:gravity="800005" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_MSTitleTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/UI_SCALE" />
+                    </RelativeLayout>
+                    <LinearLayout android:gravity="800003" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/CAMARA_COLOR" android:gravity="10" android:id="@id/m_MediaSizeTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/MEDIA_SIZE" android:layout_marginStart="5dp" />
+                        <ImageButton android:id="@id/m_SettingImageButton" android:background="@drawable/button_arrow_album" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:contentDescription="@string/DESCRIPTION" android:layout_marginStart="5dp" />
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:id="@id/tableRow2" android:layout_width="-1" android:layout_height="-2">
+                    <RelativeLayout android:gravity="800005" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_PSTitleTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/PRINT_STATUS" />
+                    </RelativeLayout>
+                    <RelativeLayout android:gravity="800003" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                        <ProgressBar android:id="@id/m_StatusProgressBar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="5dp" android:layout_marginEnd="5dp" android:layout_alignParentStart="true" style="?unknown_attr_ref: 1010079" />
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/CAMARA_COLOR" android:id="@id/m_PrintStatusTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:singleLine="true" android:layout_toRightOf="@id/m_StatusProgressBar" android:layout_marginStart="5dp" android:layout_toEndOf="@id/m_StatusProgressBar" />
+                    </RelativeLayout>
+                </TableRow>
+                <TableRow android:id="@id/tableRow3" android:layout_width="-1" android:layout_height="-2">
+                    <RelativeLayout android:gravity="800005" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_SendedCountTitleTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/SENDED_DONE_NUM" />
+                    </RelativeLayout>
+                    <RelativeLayout android:gravity="800003" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/CAMARA_COLOR" android:id="@id/m_SendedCountTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginStart="5dp" />
+                    </RelativeLayout>
+                </TableRow>
+                <TableRow android:id="@id/tableRow4" android:layout_width="-1" android:layout_height="-2">
+                    <RelativeLayout android:gravity="800005" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_PCTitleTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/PRINT_DONE_NUM" />
+                    </RelativeLayout>
+                    <RelativeLayout android:gravity="800003" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/CAMARA_COLOR" android:id="@id/m_PaperCountTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginStart="5dp" />
+                    </RelativeLayout>
+                </TableRow>
+                <TableRow android:id="@id/tableRow5" android:layout_width="-1" android:layout_height="-2">
+                    <RelativeLayout android:gravity="800005" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_SumTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/SELSUM" />
+                    </RelativeLayout>
+                    <LinearLayout android:gravity="800003" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/CAMARA_COLOR" android:gravity="11" android:id="@id/m_SelNumTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/SELNUM" android:layout_marginStart="5dp" />
+                        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_NumTailTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/NUMTAIL" android:layout_marginStart="5dp" />
+                    </LinearLayout>
+                </TableRow>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <TableRow android:gravity="50" android:id="@id/BottomLayout" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/m_PrintCancelImageButton" android:background="@drawable/button_print_cancel_bg" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/button_print_cancel" android:layout_weight="1.0" android:contentDescription="@string/DESCRIPTION" />
+        <ImageButton android:id="@id/m_PrintCheckImageButton" android:background="@drawable/button_print_check_bg" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/button_print_check" android:layout_weight="1.0" android:contentDescription="@string/DESCRIPTION" />
+    </TableRow>
+    <ProgressBar android:id="@id/m_CloseListProgressBar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+</RelativeLayout>

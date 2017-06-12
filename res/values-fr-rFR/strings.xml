@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ABOUT_APP">À propos App</string>
+    <string name="ABOUT_APP_CONTENT">"
+ Copyright HiTi Digital, Inc. 2016 
+ Tous droits réservés."</string>
+    <string name="ABOUT_APP_CONTENT2">"
+ Copyright HiTi Digital, Inc. 2016 
+ Tous droits réservés."</string>
+    <string name="ABOUT_APP_VERSION">"
+ App Version:"</string>
+    <string name="ACCOUNT">帳號:</string>
+    <string name="ACCOUNT_HINT">請輸入測試帳號</string>
+    <string name="ACCOUNT_IS_PA">目前已經是測試帳號</string>
+    <string name="ALBUM_SDCARD">Album de la carte mémoire</string>
+    <string name="ALBUM_SOURCE">Album du téléphone</string>
+    <string name="ALL_SAME">Appliquer à tous</string>
+    <string name="APPLY_TO_PRINTER">"Appliquer sur l'imprimante"</string>
+    <string name="APPLY_WIFI_SSID_HINT">"Appliquer le SSID de l'imprimante ci-dessus et mot de passe:"</string>
+    <string name="APP_VERSION">"Version de l'application:"</string>
+    <string name="AP_CHANGE_DONE">Mode ad-hoc</string>
+    <string name="ASK_SEL_PRINTER_MODEL">"S'il vous plaît Sélectionnez le modèle d'imprimante"</string>
+    <string name="AUTO_POWER_OFF">Auto Power Off:</string>
+    <string name="AutoPowerOff_Title">Auto Power Off</string>
+    <string name="BACK_HINT">Appuyez sur le bouton de retour pour quitter</string>
+    <string name="BORDERTTITLE">Réglage des bordures</string>
+    <string name="BORDER_TITLE">"Connexion à l'imprimante, 
+ lecture carte mémoire."</string>
+    <string name="BRIGHTFACE">Brillant</string>
+    <string name="BURN_FIRMWARE_CHECK_DATA">Comparant firmware ....</string>
+    <string name="BURN_FIRMWARE_SAME_VERSION">"Dernières firmware a été installé à l'imprimante."</string>
+    <string name="BURN_FIRMWARE_SUCCESS">"Nouveau firmware a été envoyé à l'imprimante, veuillez patienter. Veuillez ne pas éteindre l'imprimante retirer la batterie pendant la mise à jour. L'imprimante redémarre automatiquement après le firmware a été mis à jour. L'impression peut commencer après le redémarrage."</string>
+    <string name="BurnFirmwareActivity_m_TitleTextView">Mise à jour du micrologiciel</string>
+    <string name="CAMERA_SOURCE">"Activer l'appareil photo"</string>
+    <string name="CANCEL">Annuler</string>
+    <string name="CHANGE_WIFI_MODE">"S'il vous plaît connecter votre smartphone à la bonne SSID WiFi"</string>
+    <string name="CHECK_PRINT">"Confirmer l'impression?"</string>
+    <string name="CHECK_PRINT_STATUS">Imprimante Vérification</string>
+    <string name="CHECK_SHARE_PHOTO">Fichier enregistré, partager la photo?</string>
+    <string name="CLEAN_ERROR_COVER_NOT_OPEN">"Cassette de ruban ou du papier photo n'a pas été retiré, s'il vous plaît le supprimer"</string>
+    <string name="CLEAN_LATER">Plus tard</string>
+    <string name="CLEAN_MODE_DONE">"Nettoyage terminé, s'il vous plaît retirer le papier de nettoyage et de séparation"</string>
+    <string name="CLEAN_MODE_HINT">"Vous avez imprimé plus de 120 copies, pour garantir votre qualité d'impression, il est conseillé d'utiliser notre kit de nettoyage avec notre mode de nettoyage dans la page des paramètres."</string>
+    <string name="CLEAN_MODE_STEP1">"S'il vous plaît Retirez cassette à ruban de l'imprimante et le papier photo de la cassette de papier"</string>
+    <string name="CLEAN_MODE_STEP2">"Avant de mettre dans le papier de nettoyage, s'il vous plaît retirer le couvercle de protection jaune sur les deux côtés du papier"</string>
+    <string name="CLEAN_MODE_STEP3">Assurez-vous que la face avant du papier de nettoyage vers le haut, et le placer dans la cassette de papier</string>
+    <string name="CLEAN_MODE_STEP4">Cliquez sur Suivant pour lancer le nettoyage</string>
+    <string name="CLEAN_MODE_TITLE">Mode nettoyage</string>
+    <string name="CLEAN_MODE_WAIT_MESSAGE">"Traitement, s'il vous plaît patienter ......"</string>
+    <string name="CLEAN_NEXT_STEP">"L'étape suivante"</string>
+    <string name="CLEAN_NOW">Nettoie maintenant</string>
+    <string name="CLEAN_STEP1">Étape 1.</string>
+    <string name="CLEAN_STEP2">Étape 2.</string>
+    <string name="CLEAN_STEP3">Étape 3.</string>
+    <string name="CLEAN_STEP4">Étape 4.</string>
+    <string name="CLOSE_INFRA_MODE">Désactiver le mode Infra</string>
+    <string name="COMMON_PRINT_HINT">"
+ Appuyez sur print pour poursuivre l'impression n après avoir éliminé le problème"</string>
+    <string name="COMPARE_BORDER">Correspondant à</string>
+    <string name="COMPLETE">Terminé</string>
+    <string name="CONNECTING">Connexion en cours…</string>
+    <string name="CONN_SEARCHING">Recherche Wifi ...</string>
+    <string name="CONN_SUCCESS">Connecté</string>
+    <string name="CONTRAST">Contraste</string>
+    <string name="CREATE_BITMAP_ERROR_PHOTO_RATIO">rapport photo non pris en charge</string>
+    <string name="CREATE_BITMAP_FILE_FORMAT">Le décodage de la photo a échoué</string>
+    <string name="CREATE_BITMAP_OUT_OF_MEMORY">"Plus de mémoire, cliquez sur OK pour quitter l'éditeur en cours. Veuillez réessayer plus tard, nous nous excusons pour tous les inconvénients."</string>
+    <string name="CREATE_BITMAP_SD_CARD_MAYBE_FULL">carte SD pleine</string>
+    <string name="CREATE_BITMAP_SD_CARD_NOT_EXIST">"La carte SD n'existe pas"</string>
+    <string name="CREATE_BITMAP_SIZE_IS_ZERO">erreur de fichier photo</string>
+    <string name="CREATE_BITMAP_SOURCE_NOT_FOUND">Pas de photo sélectionnée</string>
+    <string name="CREATE_BITMAP_UNKNOWN">erreur de fichier photo</string>
+    <string name="CURRENT_AUTO_POWER_OFF_TIME">Mise en marche automatique actuel off durée:</string>
+    <string name="DATA_DELIVERY">Délivrance des données</string>
+    <string name="DECODE_FAILURE">"Le chargement de photo en cours a échoué, veuillez à nouveau charger l'album"</string>
+    <string name="DELBORDER">Supprimer les bordures</string>
+    <string name="DELBORDERTITLE">Bordures supprimé</string>
+    <string name="DESCRIPTION">Content Description</string>
+    <string name="DIALOG_CLOSE">Fermer</string>
+    <string name="DIALOG_CONN_WIFI_SEL_CURRENT">"Connexion actuelle:
+"</string>
+    <string name="DIALOG_CONN_WIFI_SEL_LAST">"Connexion précédente: 
+"</string>
+    <string name="DIALOG_CONN_WIFI_TITLE">Sélectionnez connexion</string>
+    <string name="DIALOG_LEAVE_MSG1">"Annuler l'impression, retour à la page précédente? 
+ Dans le cas contraire, retour à la page d'accueil"</string>
+    <string name="DISCONNECT">Déconnecté</string>
+    <string name="DUPLEX_2UP_NUMBER_HINT">"S'il vous plaît sélectionner un multiple de 4 lors de l'impression recto-verso 4x6; et sélectionnez un multiple de 2 pour l'impression 6x6 ou 6x8 duplex. S'il vous plaît revenir à la page précédente pour modifier vos sélections de photos."</string>
+    <string name="EDIT_EFFECT">each kind of effects</string>
+    <string name="EDIT_PREVIEW">preview monitor</string>
+    <string name="ERROR">Une erreur est survenue</string>
+    <string name="ERROR_BUSY_INITIAL">Imprimante Occupée</string>
+    <string name="ERROR_FIND_NO_STORAGEID">"Veuillez vérifier que la carte mémoire est branché avec succès dans l'imprimante"</string>
+    <string name="ERROR_MODEL">"Modèle d'imprimante ne correspond pas au modèle sélectionné dans Prinbiz App, vérifiez s'il vous plaît"</string>
+    <string name="ERROR_PRINTER_0001">Veuillez prendre la photo imprimée.</string>
+    <string name="ERROR_PRINTER_0100">"0100: Capot ouvert, s'il vous plaît assurez-vous que la porte est fermée."</string>
+    <string name="ERROR_PRINTER_0100_P310W">"0100: Capot ouvert ou ribbon manquant, s'il vous plaît assurez-vous que la porte est fermée ou vérifier le ruban."</string>
+    <string name="ERROR_PRINTER_0101">"0100: Capot ouvert, s'il vous plaît assurez-vous que la porte est fermée."</string>
+    <string name="ERROR_PRINTER_0102">"0100: Capot ouvert, s'il vous plaît assurez-vous que la porte est fermée."</string>
+    <string name="ERROR_PRINTER_0201">"0201: Ruban manquant, s'il vous plaît vérifier le ruban."</string>
+    <string name="ERROR_PRINTER_0203">"0203: Type de ruban non supportée, s'il vous plaît vérifier le ruban."</string>
+    <string name="ERROR_PRINTER_0300">"0300: Ruban vide, s'il vous plaît changer le ruban."</string>
+    <string name="ERROR_PRINTER_0301">"0301: Ruban erreur! Veuillez référer au mode d'emploi pour éliminer le problème."</string>
+    <string name="ERROR_PRINTER_0302">"0302: Ruban erreur! Veuillez référer au mode d'emploi pour éliminer le problème."</string>
+    <string name="ERROR_PRINTER_0400">0400: Assurez-vous que le papier est chargé à la position correcte.</string>
+    <string name="ERROR_PRINTER_0400_1">0400: Assurez-vous que le papier est chargé à la position correcte.</string>
+    <string name="ERROR_PRINTER_0401">0401: Plus de papier! Veuillez insérer un nouveau rouleau de papier</string>
+    <string name="ERROR_PRINTER_0500">"0500: Bourrage papier! Veuillez référer au mode d'emploi pour éliminer le problème."</string>
+    <string name="ERROR_PRINTER_0501">"0500: Bourrage papier! Veuillez référer au mode d'emploi pour éliminer le problème."</string>
+    <string name="ERROR_PRINTER_0502">"0500: Bourrage papier! Veuillez référer au mode d'emploi pour éliminer le problème."</string>
+    <string name="ERROR_PRINTER_0503">"0500: Bourrage papier! Veuillez référer au mode d'emploi pour éliminer le problème."</string>
+    <string name="ERROR_PRINTER_0504">"0504: Jam au capteur de bord lors de l'éjection du papier"</string>
+    <string name="ERROR_PRINTER_0505">"0505: Jam au capteur de bord lors de l'impression (après l'image-M terminé)"</string>
+    <string name="ERROR_PRINTER_0506">"0506: Jam au capteur de bord lors de l'impression (après l'image-C complété)"</string>
+    <string name="ERROR_PRINTER_0507">0507: Jam au capteur de bord lorsque la porte étroite</string>
+    <string name="ERROR_PRINTER_0508">"0508: Indifférent atteindre le capteur de bord lors de l'impression (frame-Y)"</string>
+    <string name="ERROR_PRINTER_0509">"0509: Indifférent atteindre le capteur de bord lors de l'impression (frame-M)"</string>
+    <string name="ERROR_PRINTER_0510">"0510: Indifférent atteindre le capteur de bord lors de l'impression (frame-C)"</string>
+    <string name="ERROR_PRINTER_0511">"0511: Indifférent atteindre le capteur de bord lors de l'impression (frame-O)"</string>
+    <string name="ERROR_PRINTER_0600">0600: Le type de papier ne correspond pas au type de ruban installé</string>
+    <string name="ERROR_PRINTER_0700">"0700: Cam erreur d'impression. Veuillez contacter le distributeur ou le revendeur le plus proche de chez vous pour plus d'assistance."</string>
+    <string name="ERROR_PRINTER_0900">"0900: NVRAM. Veuillez contacter le distributeur ou le revendeur le plus proche de chez vous pour plus d'assistance."</string>
+    <string name="ERROR_PRINTER_1000">"1000: IC puce erreur. Veuillez essayer d'utiliser un autre ruban pour imprimer pour voir si l'erreur est causée par des défaillances de la puce IC. Si l'erreur persiste, s'il vous"</string>
+    <string name="ERROR_PRINTER_1200">"1200: ADC. Veuillez contacter le distributeur ou le revendeur le plus proche de chez vous pour plus d'assistance."</string>
+    <string name="ERROR_PRINTER_1200_P301W">"1200: ADC. Veuillez contacter le distributeur ou le revendeur le plus proche de chez vous pour plus d'assistance."</string>
+    <string name="ERROR_PRINTER_1300">"1300: Impossible de mettre à jour le firmware de l'imprimante, s'il vous plaît réessayez la mise à jour du firmware, ou redémarrer l'imprimante."</string>
+    <string name="ERROR_PRINTER_1500">"1500: Cutter. Veuillez vérifier si le chemin de sortie du papier est bouché avec des bouts de papier. Si oui, Veuillez essayer d'enlever les restes de papier, puis ré-imprimer. Si l'erreur persiste, Veuillez contacter le distributeur ou le revendeur le plus proche de chez vous pour plus d'assistance."</string>
+    <string name="ERROR_PRINTER_BUSY">"L'imprimante est occupée"</string>
+    <string name="ERROR_PRINTER_CHECKED">"Appuyez sur 'OK ' lorsque le problème est résolu, et envoyer à nouveau la photo."</string>
+    <string name="ERROR_PRINTER_CONNECT">"Pas de connexion 
+ Veuillez essayer l'une des actions suivantes et se connecter à l'imprimante:. 
+- Se déconnecter du réseau WiFi courant 
+ - Redémarrez l'imprimante"</string>
+    <string name="ERROR_PRINTER_FIRMWARE_NO_CAPABILITY">Vous ne pouvez pas mettre à jour le logiciel</string>
+    <string name="ERROR_PRINTER_FIRMWARE_UPDATE">"Impossible de mettre à jour le firmware de l'imprimante. Veuillez mettre à jour firmware avec l'application Prinbiz"</string>
+    <string name="ERROR_PRINTER_INITIALIZING">"Initialisation de l'imprimante"</string>
+    <string name="ERROR_PRINTER_STATE_UNUSUAL">"Etat de l'imprimante anormale"</string>
+    <string name="ERROR_PRINTER_TIMEOUT">"Délai de connexion 
+Veuillez essayer l'une des actions suivantes et se connecter à l'imprimante:. 
+ - Se déconnecter du réseau WiFi courant 
+- Redémarrez l'imprimante 
+- Redémarrer WiFi sur votre appareil"</string>
+    <string name="ERROR_PRINTER_UNKNOWN">Erreur inconnue</string>
+    <string name="FIRMWARE_VERSION">Version du Firmware:</string>
+    <string name="GETTING_DATA_FROM_PRINTER">"Récupération des données de l'imprimante"</string>
+    <string name="HINT">Conseil</string>
+    <string name="HINT_MSG">En quittant cette page, toutes les photos déjà sélectionnés seront désélectionnés</string>
+    <string name="HINT_TITLE">Attention</string>
+    <string name="HOD_MSG">"HOD (High Optical Density) mode étend la profondeur de la gradation des couleurs et enrichit la hiérarchie d'image, ce qui rend l'impression plus nette et plus stéréoscopique."</string>
+    <string name="IDSETTITLE">Photo ID Cadre</string>
+    <string name="IDTXT">"Photo d'identité"</string>
+    <string name="ID_DISTRICT">Région</string>
+    <string name="ID_MSG">"S'il vous plaît sélectionner le réglage par défaut pour l'impression photo ID"</string>
+    <string name="ID_STYLE">ID Format</string>
+    <string name="ID_UI">"Taille de l'impression"</string>
+    <string name="IMPORTBORDER">Importation des bordures</string>
+    <string name="IMPORT_BORDER">Importation</string>
+    <string name="IMPORT_DONE">Terminé</string>
+    <string name="INFO_TITLE">A propos de Prinbiz</string>
+    <string name="INFRA_CHANGE_DONE">Mode Infra</string>
+    <string name="INFRA_NO_SSID">SSID invalide</string>
+    <string name="INFRA_PRINTER_SSID">"Nom de l'imprimante:"</string>
+    <string name="INFRA_SETTING">Changement Wifi Réglage imprimante</string>
+    <string name="INFRA_WIFI_PASSWORD">Mot de passe Wifi</string>
+    <string name="INFRA_WIFI_SETTINGS">Paramètres du mode infra</string>
+    <string name="INFRA_WIFI_SSID">Wi-Fi SSID</string>
+    <string name="LEAVE_COLLAGE_MSG">"Si vous quittez cette page, tout état d'édition seront effacées, confirmez-vous?"</string>
+    <string name="LEAVE_COLLAGE_TITLE">Quittez Modification</string>
+    <string name="LEAVE_COLLAGE_TO_PRINT">"Fait pour le montage et prête à imprimer, une fois que vous êtes dans la page d'impression, vous ne pouvez pas revenir en arrière pour faire plus d'édition, confirmez-vous?"</string>
+    <string name="LEAVE_PRINT_ID_PHOTO_MSG">"ID photo n'a pas encore été imprimé, si vous quittez cette page, ce fichier sera perdu, vous confirmez-vous?"</string>
+    <string name="LEAVE_PRINT_ID_PHOTO_TITLE">Quitter impression</string>
+    <string name="LIFETEXT">Impression Générale</string>
+    <string name="LIGHT">Luminosité</string>
+    <string name="LOADING_IMAGE">Comparaison photo ……</string>
+    <string name="LOGIN">登入</string>
+    <string name="LOGIN_OK">登入成功</string>
+    <string name="MEDIA_SIZE">4x6</string>
+    <string name="MIN">min</string>
+    <string name="MINS">mins</string>
+    <string name="MODIFY_DEFAULT_CONNECTION_1">"Voulez-vous sélectionner l'imprimante connectée actuellement("</string>
+    <string name="MODIFY_DEFAULT_CONNECTION_2">")
+ par défaut?"</string>
+    <string name="MSG_ACCOUNT_PWD_WRONG">Compte ou mot de passe incorrect</string>
+    <string name="MSG_FACE">"Sélectionnez les options d'impression par défaut"</string>
+    <string name="MSG_MODE_WARNING">"Impossible de modifier le réglage de mode Ad-hoc, car l'imprimante est en mode Infra currectly"</string>
+    <string name="MSG_PRINTOUT">"Taille de l'impression"</string>
+    <string name="MSG_PWD">Mot de passe :</string>
+    <string name="MSG_PWD_CHECK">"S'il vous plaît le mot de passe de l'imprimante d'entrée"</string>
+    <string name="MSG_PWD_WRONG">Mot de passe incorrect</string>
+    <string name="MSG_SHARPEN">Réglage de la netteté</string>
+    <string name="MUST_UPDATE_FIRMWARE">"S'il vous plaît appuyez sur OK pour mettre à jour le firmware de l'imprimante afin de soutenir le mode Infra"</string>
+    <string name="NEED_WIFI_DONGLE_HINT">Cher utilisateur, afin de se connecter à votre imprimante sans fil via Wi-Fi en utilisant Prinbiz App, vous devez joindre un dongle USB sans fil à votre imprimante.</string>
+    <string name="NFC_APPLY_BUTTON">NFC</string>
+    <string name="NFC_APPROACH_TAG">"
+ S'il vous plaît approcher NFC tag."</string>
+    <string name="NFC_APPROCH_TO_READ_MSG">"S'il vous plaît toucher votre smartphone avec NFC pour se connecter"</string>
+    <string name="NFC_APP_NAME_NOT_MATCH">Mauvaise App dans le NFC Tag</string>
+    <string name="NFC_FORMATE_NOT_SUPPORT">format Tag NFC pas pris en charge</string>
+    <string name="NFC_IS_WRITING">écrit NFC ......</string>
+    <string name="NFC_PRINTER_MODEL_NOT_MATCH">"modèle d'imprimante incorrect dans NFC Tag"</string>
+    <string name="NFC_READ_FAIL">"NFC tag lecture a échoué, s'il vous plaît essayer à nouveau"</string>
+    <string name="NFC_READ_FORMATE_FALSE">Format incorrect de tag NFC</string>
+    <string name="NFC_READ_INFO">"S'il vous plaît toucher votre smartphone avec NFC, tout en achetant Wi-Fi d'imprimante SSID et mot de passe. 
+ Tous les téléphones Android soutien NFC lecture et l'écriture, s'il vous plaît contacter le fabricant de votre téléphone intelligent pour plus d'informations. 
+ 
+ faire S'il vous plaît que le SSID Wi-Fi de l'imprimante et mot de passe dans le tag NFC est le même que votre imprimante, ou bien vous ne pouvez pas connecter votre smartphone avec votre imprimante automatiquement via NFC tag ."</string>
+    <string name="NFC_READ_NO_SSID">"Nom de l'imprimante ne figure pas dans NFC tag"</string>
+    <string name="NFC_READ_SUCCESS">"Nom de l'imprimante dans le NFC tag est"</string>
+    <string name="NFC_READ_TAG_INFO">Vérifiez imprimante Wi-Fi SSID dans le NFC</string>
+    <string name="NFC_SET_SSID_AND_PASSWORD_MSG">"Aimeriez-vous pour écrire le nouveau nom de l'imprimante et le mot de passe dans le tag NFC maintenant?"</string>
+    <string name="NFC_TAG_PASSWORD">"mot de passe de l'imprimante dans le NFC:"</string>
+    <string name="NFC_TAG_SSID">"Nom de l'imprimante dans le NFC:"</string>
+    <string name="NFC_WIFI_CONNECT_FAIL">"Connexion Wi-Fi d'imprimante a échoué"</string>
+    <string name="NFC_WIFI_CONNECT_SUCCESSS">"Connecté avec Wi-Fi d'imprimante"</string>
+    <string name="NFC_WIFI_UNDETECT">"Imprimante non détectée, s'il vous plaît utiliser votre téléphone Wi-Fi ou NFC connecté avec imprimante Wi-Fi."</string>
+    <string name="NFC_WRITE_DIALOG">"Confirmer par écrit le nouveau nom de l'imprimante et mot de passe dans NFC?"</string>
+    <string name="NFC_WRITE_FAIL">NFC écriture a échoué!</string>
+    <string name="NFC_WRITE_SUCCESS">NFC écrire succès!</string>
+    <string name="NOPAPER">"Pas de papier! s'il vous plaît ajouter une nouvelle feuille"</string>
+    <string name="NOPHOTO">Pas de photo</string>
+    <string name="NOTHUMBNAIL">"La vignette n'existe pas"</string>
+    <string name="NOT_ASK_AGAIN">Ne plus demander</string>
+    <string name="NOT_SUPPORT_STORAGE">"L'imprimante ne prend pas en charge les périphériques de stockage externes"</string>
+    <string name="NOW_WIFI">Wi-Fi:</string>
+    <string name="NO_MATCH_BORDER_NAME">"Pas de bordures trouvées, s'il vous plaît vérifier si la bordure règles de nommage sont effectués correctement."</string>
+    <string name="NO_SEL_PHOTO">"Aucune photo n'a été sélectionné"</string>
+    <string name="NO_SHOW_AGAIN">Ne pas montrer de nouveau</string>
+    <string name="NO_THUMB_SEL">Pas de photo sélectionnée</string>
+    <string name="NUMTAIL">gravures</string>
+    <string name="OFF">De</string>
+    <string name="OK">Ok</string>
+    <string name="ONE_SELECT">image button for function</string>
+    <string name="OPEN_INFRA_MODE">Activer le mode Infra</string>
+    <string name="PAGE_DUPLEX">Impression recto verso</string>
+    <string name="PAGE_SINGLE">Simplex impression</string>
+    <string name="PAPER_JAM_DONE">"Papier erreur de bourrage fixe! Continuer l'impression de photos restantes?"</string>
+    <string name="PAPER_JAM_MESSAGE">"Bourrage papier! S'il vous plaît suivez ces instructions puis cliquez sur ok pour continuer: 
+ 1. ouvert ruban porte 
+ 2. enlever le ruban (ruban supplémentaire pourrait être enroulé et produire des sons anormaux sinon enlevés) 
+ 3. fermer la porte du ruban"</string>
+    <string name="PAPER_JAM_TITLE">Bourrage papier</string>
+    <string name="PAPER_JAM_WAITING">"Traitement erreur de bourrage papier, s'il vous plaît ne laissez pas cette page"</string>
+    <string name="PASSWORD">Mot de passe</string>
+    <string name="PASSWORD_SETTING">Mot de passe option</string>
+    <string name="PASSWORD_SETTING_ALERT_MSG">"S'il vous plaît entrer 5 ou 13 caractères"</string>
+    <string name="PLEASE_CONNECT_NETWORK">"S'il vous plaît vérifier la connexion de l'imprimante"</string>
+    <string name="PLEASE_INPUT_INFRA_WIFI_SSID">Veuillez saisir WiFi SSID</string>
+    <string name="PLEASE_INPUT_PASSWORD">Veuillez entrer le mot de passe</string>
+    <string name="PLEASE_INPUT_PRINTER_WIFI_SSID">"S'il vous plaît le WiFi SSID de l'imprimante"</string>
+    <string name="PLEASE_SELECT_NETWORK">"S'il vous plaît veuillez sélectionner un réseau Wi-Fi"</string>
+    <string name="PLEASE_SELECT_OTHER_CAMERA_APP">"S'il vous plaît sélectionnez une autre application de l'appareil photo"</string>
+    <string name="PLEASE_WAIT">Veuillez patienter</string>
+    <string name="POOL_TITLE">"Sélectionnez quantité d'impression"</string>
+    <string name="PRINTER_DETECT">"Imprimante non détectée, s'il vous plaît assurez-vous que votre téléphone Wi-Fi est connecté avec imprimante Wi-Fi"</string>
+    <string name="PRINTER_MODEL">"Modèle d'imprimante"</string>
+    <string name="PRINTER_STATUS">"Statut de l'imprimante:"</string>
+    <string name="PRINTER_STATUS_IDLE">Prêt à imprimer</string>
+    <string name="PRINTER_STATUS_INITIALIZING">Initialisation</string>
+    <string name="PRINTER_STATUS_PAUSED">Pause</string>
+    <string name="PRINTER_STATUS_PRINTING">Impression</string>
+    <string name="PRINTER_UNDETECT">Imprimante non détectée</string>
+    <string name="PRINTER_WIFI_SET">imprimante</string>
+    <string name="PRINTER_WIFI_SETTINGS">Paramètres du mode Ad-hoc:</string>
+    <string name="PRINTER_WIFI_SSID">Imprimante Wi-Fi SSID</string>
+    <string name="PRINT_BUSY">Impression…</string>
+    <string name="PRINT_COPIES">Copies</string>
+    <string name="PRINT_DONE">Impression complète</string>
+    <string name="PRINT_DONE_NUM">Imprimé:</string>
+    <string name="PRINT_MAKE_IMAGE">"Traitement, s'il vous plaît patienter……"</string>
+    <string name="PRINT_NONE">Impression annulée</string>
+    <string name="PRINT_PAUSE">Pause</string>
+    <string name="PRINT_QUALITY">"Méthode d'impression"</string>
+    <string name="PRINT_STATUS">"Statut de l'imprimante:"</string>
+    <string name="PRINT_WAITING">Imprimante en standby</string>
+    <string name="PrinterList">"S'il vous plaît Sélectionnez Imprimante"</string>
+    <string name="PrinterScan">Scan pour imprimante</string>
+    <string name="QTY_HOD">HOD</string>
+    <string name="QTY_NORMAL">Standard</string>
+    <string name="QTY_REFINEMENT">Délicat</string>
+    <string name="QTY_TO_LARGE">"Taille de la photo trop petite, redimensionnement automatique. 
+ Acceptez-vous?"</string>
+    <string name="QUALITY_TITLE">Changement de la qualité</string>
+    <string name="QUICKTXT">Impression Rapide</string>
+    <string name="REQUESTDENIED">Demande refusée</string>
+    <string name="ROOT">Répertoire de la carte mémoire</string>
+    <string name="SATURATION">Saturation</string>
+    <string name="SCALE_TO_LARGE">"La photo sera automatiquement redimensionnée. 
+ Acceptez-vous?"</string>
+    <string name="SDCARD_SOURCE">Carte Mémoire</string>
+    <string name="SD_CARD_NOT_READYING">Carte SD pas prêt</string>
+    <string name="SEARCH_BORDER">Recherche</string>
+    <string name="SECS">secs</string>
+    <string name="SELNUM">1</string>
+    <string name="SELSUM">Total:</string>
+    <string name="SEL_ALL">Sélectionner tout</string>
+    <string name="SENDED_DONE_NUM">Envoyé:</string>
+    <string name="SETTING_DATA_TO_PRINTER">"Envoi de données à l'imprimante"</string>
+    <string name="SET_AUTO_POWER_SUCCESS">Réglages Auto Power Off ont été modifiés</string>
+    <string name="SET_COLLAGE">Réglages du cadre</string>
+    <string name="SET_DONE">Réglage terminé</string>
+    <string name="SET_ID">Paramètres photo ID</string>
+    <string name="SET_LIFE">"Impression générale 
+ Réglages"</string>
+    <string name="SET_PRINTER">"Paramètres de l'imprimante"</string>
+    <string name="SET_QUICK">"Impression rapide 
+ Réglages"</string>
+    <string name="SET_SSID_AND_PASSWORD_FAIL">"Impossible de modifier Wi-Fi SSID et mot de passe de l'imprimante"</string>
+    <string name="SET_SSID_AND_PASSWORD_SUCCESS">Imprimante Wi-Fi SSID et mot de passe a été modifié</string>
+    <string name="SET_TITLE">Paramètres</string>
+    <string name="SHADOWFACE">Mat</string>
+    <string name="SHARE_PHOTO_TO">Prinbiz Partager photo pour ……</string>
+    <string name="SIXTY_MINUTES">60 minutes</string>
+    <string name="SIZE_NOT_MATCH">La taille du papier ne correspond pas à la taille de la photo</string>
+    <string name="SIZE_OVER_25">Taille supérieure 25MB</string>
+    <string name="SIZE_TO_SMALL">"Photo encore surdimensionné, compresse automatique. 
+ Acceptez-vous?"</string>
+    <string name="SNAPTXT">Impression Instantanée</string>
+    <string name="SNAP_PRINT_MSG">"Cher utilisateur, vous êtes actuellement en mode Mode d'impression instantanée, s'il vous plaît assurez-vous que votre appareil est connecté à notre imprimante. Les photos que vous prenez dès maintenant instantanément être imprimés. S'il vous plaît se référer à la page de configuration de l'imprimante pour modifier les paramètres par défaut de l'imprimante."</string>
+    <string name="SNAP_PRINT_TITLE">"Mode d'impression instantanée"</string>
+    <string name="SPLITE">/</string>
+    <string name="STORAGE_ACCESS_DENIED">"Carte mémoire occupé, s'il vous plaît réessayer plus tard"</string>
+    <string name="SUGGEST_UPDATE_FIRMWARE">"Nouvelle mise à jour du firmware disponible pour le contrôle de l'imprimante. S'il vous plaît appuyez sur OK pour mettre à jour le firmware de l'imprimante pour une meilleure performance d'impression."</string>
+    <string name="SWITCH_PRINTER_MODEL">"Commutateur Modèle d'imprimante"</string>
+    <string name="THE_LAST_FIRMWARE">Dernière version du firmware:</string>
+    <string name="THUMB_LOADING">"Chargement de l'image"</string>
+    <string name="TITLE_PHOTO">"Nom de l'album"</string>
+    <string name="TITLE_SOURCE">Sélectionner Source de la photo</string>
+    <string name="TITLE_WIFI_SETTING">"Paramètres Wi-Fi d'imprimante"</string>
+    <string name="TWENTY_MINUTES">20 minutes</string>
+    <string name="TWO_ORIGIN">where photo come from</string>
+    <string name="UI_SCALE">"Taille de l'impression:"</string>
+    <string name="UNABLE_TO_CONNECT_TO_PRINTER">"Impossible de se connecter à l'imprimante"</string>
+    <string name="WARNNING">Statut</string>
+    <string name="WARRING_CROP_DONOTASK">Ne montre pas</string>
+    <string name="WARRING_CROP_GENERAL">"Si les photos que vous avez sélectionnée ont une largeur différente et le rapport de la hauteur comme le rapport l'impression souhaitée, votre photo peut être recadrée. Vous pouvez prévisualiser votre première photo dans la page d'édition de photos."</string>
+    <string name="WARRING_CROP_QUICK">"Si les photos que vous avez sélectionnée ont une largeur différente et le rapport de la hauteur comme le rapport l'impression souhaitée, votre photo peut être recadrée. Pour éviter cela, s'il vous plaît sélectionner les photos avec le rapport d'impression correcte."</string>
+    <string name="WiFiChanged">"Votre WiFi de l'imprimante a été modifié. S'il vous plaît vous reconnecter avec votre WiFi d'imprimante"</string>
+    <string name="app_name">Prinbiz</string>
+    <string name="descriptions">"1. Connexion amelioree 
+ 2. La qualite d'impression amelioree"</string>
+    <string name="descriptions_p310w">"1. Connexion amelioree 
+ 2. La qualite d'impression amelioree"</string>
+    <string name="descriptions_p520l">"1. Connexion amelioree 
+ 2. La qualite d'impression amelioree"</string>
+    <string name="descriptions_p530D">"1. Connexion amelioree 
+ 2. La qualite d'impression amelioree"</string>
+    <string name="descriptions_p750l">"1. Connexion amelioree 
+ 2. La qualite d'impression amelioree"</string>
+</resources>

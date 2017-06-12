@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/m_RelativeLayout1" android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_RelativeLayout2" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+        <TableRow android:id="@id/tableRow1" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageButton android:id="@id/m_StatusButton" android:background="0x106000d" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_printer_status" style="?unknown_attr_ref: 101032f" />
+            <ImageButton android:id="@id/m_PrintButton" android:background="0x106000d" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_print" style="?unknown_attr_ref: 101032f" />
+        </TableRow>
+    </RelativeLayout>
+    <LinearLayout android:gravity="10" android:orientation="0" android:id="@id/m_SelectLayout" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/m_RelativeLayout2">
+        <RadioButton android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="0x106000c" android:id="@id/m_SelectAllButton" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="@string/SEL_ALL" />
+        <TableRow android:id="@id/m_tableRow3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp">
+            <ImageButton android:id="@id/m_ReduceButton" android:background="@drawable/button_reduce" android:layout_width="-2" android:layout_height="-2" android:contentDescription="@string/DESCRIPTION" />
+            <ImageButton android:id="@id/m_AddButton" android:background="@drawable/button_add" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:contentDescription="@string/DESCRIPTION" />
+        </TableRow>
+        <TableRow android:gravity="800005" android:id="@id/m_FunctionTableRow" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="15dp">
+            <ImageButton android:id="@id/m_EditButton" android:background="0x106000d" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_edit" style="?unknown_attr_ref: 101032f" />
+            <ImageButton android:id="@id/m_DeleteButton" android:background="0x106000d" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_pool_delete" style="?unknown_attr_ref: 101032f" />
+        </TableRow>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/m_RelativeLayout3" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/m_SelectLayout">
+        <GridView android:id="@id/m_PhotoGridView" android:layout_width="-2" android:layout_height="-2" android:horizontalSpacing="3dp" android:verticalSpacing="3dp" android:numColumns="4" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/m_CloseListprogressBar" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+</RelativeLayout>

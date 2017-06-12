@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/WHITE" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_FragmentLayout" android:background="@color/LIGHT_GRAY" android:layout_width="-1" android:layout_height="-1">
+        <GridView android:gravity="11" android:id="@id/m_ImageGridView" android:layout_width="-2" android:layout_height="-2" android:horizontalSpacing="3dp" android:verticalSpacing="3dp" android:stretchMode="2" android:numColumns="4" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

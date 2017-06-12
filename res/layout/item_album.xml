@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_centerHorizontal="true">
+        <FrameLayout android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="13" android:id="@id/m_AlbumImageView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" android:scaleType="6" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="-2" android:layout_height="-1" android:layout_weight="3.0">
+            <TextView android:textStyle="1" android:textColor="@color/DAER_GREEN" android:ellipsize="3" android:layout_gravity="13" android:id="@id/m_AlbumTextView" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+        </FrameLayout>
+        <FrameLayout android:gravity="11" android:layout_gravity="15" android:layout_width="-2" android:layout_height="-1" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="15" android:id="@id/m_AlbumCheckImageView" android:background="@drawable/button_arrow_album" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

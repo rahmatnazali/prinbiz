@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-2" android:layout_height="-2"
+    <RelativeLayout android:background="@color/WHITE" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="15dp">
+        <TextView android:textSize="16sp" android:textColor="@color/SETTING_ORANGE" android:id="@id/m_HODTitle" android:layout_width="-2" android:layout_height="-2" android:text="@string/QTY_HOD" />
+        <TextView android:textColor="@color/DARK_GRAY" android:id="@id/m_HODMSG" android:layout_width="-2" android:layout_height="-2" android:text="@string/HOD_MSG" android:layout_below="@id/m_HODTitle" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/m_HODcloseImageButton" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_delete" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/DESCRIPTION" android:layout_alignParentEnd="true" />
+</RelativeLayout>

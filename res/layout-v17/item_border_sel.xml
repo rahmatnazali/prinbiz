@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/DefaultBorderImageView" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" android:contentDescription="@string/DESCRIPTION" />
+    <ImageView android:id="@id/BorderImageView" android:layout_width="-2" android:layout_height="-2" android:scaleType="6" android:layout_centerInParent="true" android:contentDescription="@string/DESCRIPTION" />
+    <ProgressBar android:id="@id/BorderProgressBar" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+    <ImageView android:id="@id/BorderCheckImageView" android:layout_width="-2" android:layout_height="-2" android:scaleType="6" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/DESCRIPTION" />
+    <ImageButton android:id="@id/m_DelImageView" android:background="@drawable/button_delete" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_alignTop="@id/DefaultBorderImageView" android:layout_alignRight="@id/DefaultBorderImageView" android:contentDescription="@string/DESCRIPTION" android:layout_alignEnd="@id/DefaultBorderImageView" />
+</RelativeLayout>

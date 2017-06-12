@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:background="@color/BACKGROUND_INDEX" android:layout_width="280dp" android:layout_height="200dp" android:layout_centerInParent="true">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_TitleTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/BORDER_TITLE" android:layout_above="@id/m_ProgressStepProgressBar" android:layout_centerHorizontal="true" />
+        <ProgressBar android:id="@id/m_ProgressStepProgressBar" android:layout_width="190dp" android:layout_height="13dp" android:layout_margin="15dp" android:layout_centerInParent="true" style="?unknown_attr_ref: 1010078" />
+        <TableRow android:gravity="11" android:id="@id/m_StatusBarTableRow" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/m_ProgressStepProgressBar">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_PreintOutTextView" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_StausTextView" android:layout_width="-2" android:layout_height="-2" />
+            <Button android:textColor="@color/DARK_GRAY" android:id="@id/m_OKButton" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@string/DIALOG_CLOSE" />
+        </TableRow>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:gravity="11" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:id="@id/m_DefaultImageView" android:layout_width="-2" android:layout_height="-2" android:contentDescription="@string/DESCRIPTION" />
+        <ImageView android:id="@id/m_BorderImageView" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:layout_centerHorizontal="true" android:contentDescription="@string/DESCRIPTION" />
+        <ProgressBar android:id="@id/m_BorderProgressBar" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" style="?unknown_attr_ref: 1010079" />
+    </RelativeLayout>
+    <CheckBox android:id="@id/m_CheckBox" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:button="@drawable/button_check" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1" android:contentDescription="@string/DESCRIPTION">
+    <ProgressBar android:id="@id/loadThumbnailProgressBar" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="false" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 101007a" />
+    <RelativeLayout android:id="@id/FrameLayout1" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+        <TextView android:id="@id/m_TitleTextView" style="@style/titleStyle" />
+    </RelativeLayout>
+    <ListView android:id="@id/m_SettingListView" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/FrameLayout1" />
+</RelativeLayout>

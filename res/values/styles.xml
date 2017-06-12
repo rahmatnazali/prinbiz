@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="AmountStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+    <style name="Dialog_MSG" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="EDMStausTitleStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:padding">1.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ItemCleanStyle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/DARK_GRAY</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+    </style>
+    <style name="NoTitle" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="barFilterStyle">
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="btnCollageStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">15.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="btnEditPageStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="btnEditStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="btnFineStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">7.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="btnLargeStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/back_padding_large_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">14.0dip</item>
+        <item name="android:layout_marginRight">14.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="btnLoginStyle">
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="btnMainLargeStyle">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/padding_button_large</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="btnMainStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/padding_button</item>
+        <item name="android:drawablePadding">@dimen/padding_drawable</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="btnMemberStyle">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="btnModelStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5.0dip</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="btnPopBottomStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="btnPrintLeaveStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="btnPrintStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="btnSettingStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/setting_orange_to_white</item>
+        <item name="android:background">@drawable/button_setting_empty</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="btnSimpleStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="btnStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/back_padding_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="btnWifiSettingStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/setting_white_to_orange</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_wifi_setting</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="checkboxLargeStyle">
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:paddingLeft">@dimen/padding_checbox_large</item>
+        <item name="android:paddingRight">@dimen/padding_checbox_large</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="checkboxStyle">
+        <item name="android:textColor">@color/DARK_GRAY</item>
+        <item name="android:paddingLeft">@dimen/padding_checbox</item>
+        <item name="android:paddingRight">@dimen/padding_checbox</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="imgFilterStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingLeft">7.0dip</item>
+        <item name="android:paddingRight">7.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="printLargeStyle">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:padding">3.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="printStausLargeStyle">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/PRINT_STATUS</item>
+        <item name="android:padding">3.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="printStausStyle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/PRINT_STATUS</item>
+        <item name="android:padding">3.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="printStyle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:padding">3.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="settingRadioStyle">
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="settingTitleLargeStyle">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="settingTitleStyle">
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="titleLargeStyle">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="titleStyle">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="txtLargeStyle">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="txtMainStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="txtSettingLargeStyle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="txtSettingStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="txtSourceTitleStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/SOURCE_GRAY</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="txtStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

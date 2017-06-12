@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/WHITE" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_TitleLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:contentDescription="@string/desc" style="@style/btnStyle" />
+        <TextView android:id="@id/m_TitleTextView" android:text="@string/AutoPowerOff_Title" style="@style/titleStyle" />
+    </RelativeLayout>
+    <ListView android:id="@id/m_AutoPowerOffListView" android:layout_width="-1" android:layout_height="-2" android:layout_above="@id/m_ApplyToPrinterButton" android:layout_below="@id/m_TitleLayout" />
+    <ImageButton android:id="@id/m_ApplyToPrinterButton" android:background="@drawable/button_msg_ok" android:paddingTop="1dp" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/button_yes" android:layout_alignParentBottom="true" android:contentDescription="@string/DESCRIPTION" />
+    <ProgressBar android:id="@id/loadThumbnailProgressBar" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

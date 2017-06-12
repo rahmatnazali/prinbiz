@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:gravity="10" android:id="@id/m_TitileRLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/m_TitleTextView" android:text="@string/TITLE_WIFI_SETTING" style="@style/titleStyle" />
+        <ImageButton android:id="@id/m_BackImageButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_OpenInfraLayout" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_below="@id/m_TitileRLayout">
+        <RadioGroup android:id="@id/m_OpenInfraRadioGroup" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <RadioButton android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_InfraCloseRadioButton" android:layout_width="-2" android:layout_height="-2" android:text="@string/CLOSE_INFRA_MODE" />
+            <RadioButton android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_InfraOpenRadioButton" android:layout_width="-2" android:layout_height="-2" android:text="@string/OPEN_INFRA_MODE" />
+        </RadioGroup>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_InfraSetLayout" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/m_OpenInfraLayout" android:layout_centerHorizontal="true">
+        <TextView android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_SSIDTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="@string/INFRA_WIFI_SSID" />
+        <EditText android:id="@id/m_SSIDEditText" android:layout_width="-2" android:layout_height="-2" android:hint="@string/PLEASE_INPUT_INFRA_WIFI_SSID" android:ems="10" android:singleLine="true" android:maxLength="32" android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ~!@#$%^&*()_+|`-={}:"<>?[];',./ " android:layout_below="@id/m_SSIDTextView">
+            <requestFocus />
+        </EditText>
+        <TextView android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_PwdTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/INFRA_WIFI_PASSWORD" android:layout_below="@id/m_SSIDEditText" />
+        <EditText android:id="@id/m_PwdEditText" android:layout_width="-2" android:layout_height="-2" android:hint="@string/PLEASE_INPUT_PASSWORD" android:maxLength="13" android:layout_below="@id/m_PwdTextView" android:layout_alignLeft="@id/m_SSIDEditText" android:layout_alignRight="@id/m_SSIDEditText" android:inputType="81" android:layout_alignStart="@id/m_SSIDEditText" android:layout_alignEnd="@id/m_SSIDEditText" />
+        <TableRow android:id="@id/tableRow1" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/m_PwdEditText">
+            <TextView android:textStyle="1" android:textColor="@color/DARK_GRAY" android:id="@id/m_PrinterTitleTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/INFRA_PRINTER_SSID" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_PrinterNameTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:text="@string/INFRA_PRINTER_SSID" android:layout_marginStart="20dp" />
+        </TableRow>
+    </RelativeLayout>
+    <ImageButton android:id="@id/m_SetComfirmButton" android:background="@drawable/button_msg_ok" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/button_yes" android:layout_alignParentBottom="true" android:contentDescription="@string/DESCRIPTION" />
+</RelativeLayout>

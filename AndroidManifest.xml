@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="37" android:versionName="1.9.2" package="com.hiti.prinbiz" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="24" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <application android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:icon="@drawable/app_icon" android:allowBackup="true" android:largeHeap="true">
+        <activity android:name="com.hiti.prinbiz.ModelActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/hiti.prinbiz" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.nfc.action.TECH_DISCOVERED" android:resource="@xml/nfc_tech_filter" />
+            <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hiti.prinbiz.MainActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.SourceActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.PoolActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.SettingActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.AlbumActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.GalleryActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.AlbumFromPrinterActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.GalleryFromPrinterActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.PrintViewActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.SettingQuickPrintActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.SettingPrinterActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.PrinterWifiSettingActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.SettingBorderActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.BorderDelMainFragmentActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.BurnFirmwareActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.SettingGeneralPrintActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.SettingPrintAttrActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.SettingIDActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.CollageActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.InfoActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.EditGeneralActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.EditIdActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.InfraWifiSettingActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.FirmwareTestLogin" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.SetAutoPowerOffActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hiti.prinbiz.SettingCleanModeActivity" android:screenOrientation="portrait" />
+        <service android:name="com.hiti.service.upload.UploadService" />
+        <service android:name="com.hiti.service.mdns.MdnsService" />
+        <service android:name="com.hiti.service.print.PrintService" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+    </application>
+</manifest>

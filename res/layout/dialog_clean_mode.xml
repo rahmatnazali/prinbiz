@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/shape_circle_corner_orange_line_white_nopadding" android:layout_width="-2" android:layout_height="-2">
+    <TextView android:textSize="18sp" android:textColor="@color/WHITE" android:gravity="11" android:id="@id/m_CleanTitleTextView" android:background="@drawable/shape_rectangle_corner_orange" android:paddingTop="15dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/PRINT_DONE" />
+    <RelativeLayout android:background="@drawable/shape_rectangle_line_wihte_orange" android:padding="15dp" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <TextView android:textSize="16sp" android:textColor="@color/BLACK" android:id="@id/m_CleanMSGTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/CLEAN_MODE_HINT" />
+    </RelativeLayout>
+    <TableRow android:gravity="10" android:layout_width="-1" android:layout_height="-2">
+        <Button android:textColor="@color/setting_orange_to_white" android:id="@id/m_CleanNoButton" android:background="@drawable/button_dialog_cancel" android:padding="15dp" android:text="@string/CLEAN_LATER" android:contentDescription="@string/DESCRIPTION" style="@style/btnPopBottomStyle" />
+        <Button android:textColor="@color/setting_white_to_orange" android:id="@id/m_CleanOKButton" android:background="@drawable/button_dialog_ok" android:padding="15dp" android:text="@string/CLEAN_NOW" android:contentDescription="@string/DESCRIPTION" style="@style/btnPopBottomStyle" />
+    </TableRow>
+</LinearLayout>

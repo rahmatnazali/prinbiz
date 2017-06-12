@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="1" android:orientation="1" android:id="@id/m_RadioLayout" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_TitleTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="@string/MSG_FACE" />
+        <TableRow android:gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:layout_marginBottom="20dp">
+            <RadioGroup android:orientation="0" android:id="@id/m_ItemRadioGroup" android:layout_width="-2" android:layout_height="-2">
+                <RadioButton android:textColor="@color/DARK_GRAY" android:id="@id/m_FirstItem" android:layout_width="-2" android:layout_height="-2" android:button="@drawable/button_select" android:text="@string/BRIGHTFACE" />
+                <RadioButton android:textColor="@color/DARK_GRAY" android:id="@id/m_SecondItem" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:button="@drawable/button_select" android:text="@string/SHADOWFACE" android:layout_marginStart="15dp" />
+                <RadioButton android:textColor="@color/DARK_GRAY" android:id="@id/m_ThirdItem" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:button="@drawable/button_select" android:text="@string/SHADOWFACE" android:layout_marginStart="15dp" />
+            </RadioGroup>
+            <ImageButton android:id="@id/m_InfoHODImageView" android:background="0x106000d" android:paddingBottom="2dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:src="@drawable/button_info_orange" android:contentDescription="@string/DESCRIPTION" android:layout_marginStart="5dp" />
+        </TableRow>
+    </LinearLayout>
+    <RelativeLayout android:orientation="1" android:id="@id/m_SharpenLayout" android:visibility="0" android:layout_width="-1" android:layout_height="-1"
+        <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/m_SharpenTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="@string/MSG_SHARPEN" android:layout_centerHorizontal="true" />
+            <LinearLayout android:orientation="0" android:id="@id/m_NumberLinearLayout" android:layout_width="296dp" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="@id/m_SharpenTextView" android:layout_alignLeft="@id/m_SharpenSeekBar" android:layout_alignStart="@id/m_SharpenSeekBar" />
+            <SeekBar android:id="@id/m_SharpenSeekBar" android:layout_width="296dp" android:layout_height="-2" android:layout_marginBottom="20dp" android:maxHeight="15dp" android:max="8" android:progress="4" android:progressDrawable="@drawable/scale" android:minHeight="15dp" android:thumb="@drawable/button_sharpen_circle" android:thumbOffset="0dp" android:layout_below="@id/m_NumberLinearLayout" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

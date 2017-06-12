@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.app.FragmentTabHost android:id="0x1020012" android:background="@color/WHITE" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:id="@id/m_TitleRelativeLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp">
+            <TextView android:id="@id/m_BorderDelTitleTextView" android:text="@string/DELBORDERTITLE" style="@style/titleStyle" />
+            <ImageButton android:id="@id/m_BackImageButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+            <ImageButton android:id="@id/m_OKImageButton" android:src="@drawable/button_border_del" android:layout_alignParentRight="true" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+        </RelativeLayout>
+        <TabWidget android:orientation="0" android:id="0x1020013" android:layout_width="-2" android:layout_height="-2" android:layout_weight="0.0" />
+        <FrameLayout android:id="0x1020011" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="0.0" />
+        <FrameLayout android:id="@id/realtabcontent" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+</android.support.v4.app.FragmentTabHost>

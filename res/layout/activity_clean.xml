@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_TitleLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2">
+        <ImageButton android:id="@id/m_BackImageButton" android:src="@drawable/button_back" android:contentDescription="@string/descriptions" style="@style/btnStyle" />
+        <TextView android:id="@id/textView1" android:text="@string/CLEAN_MODE_TITLE" style="@style/titleStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="30dp" android:layout_above="@id/m_CleanNextStepButton" android:layout_below="@id/m_TitleLayout">
+        <LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_centerInParent="true">
+            <TextView android:id="@id/m_StepTitleTexView" android:text="@string/CLEAN_STEP1" style="@style/ItemCleanStyle" />
+            <ImageView android:layout_gravity="1" android:id="@id/m_CleanImageView" android:contentDescription="@string/DESCRIPTION" style="@style/ItemCleanStyle" />
+            <TextView android:id="@id/m_CleanMessageTextView" android:text="@string/CLEAN_MODE_STEP1" style="@style/ItemCleanStyle" />
+            <ProgressBar android:id="@id/m_CleanProgressBar" android:layout_width="-1" android:layout_height="10dp" android:layout_marginTop="10dp" android:indeterminate="true" style="?unknown_attr_ref: 1010078" />
+            <TextView android:layout_gravity="1" android:id="@id/m_CleanWaitTextView" android:text="@string/CLEAN_MODE_WAIT_MESSAGE" style="@style/ItemCleanStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+    <Button android:textSize="18sp" android:textColor="@color/WHITE" android:id="@id/m_CleanNextStepButton" android:background="@drawable/button_msg_ok" android:padding="15dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/CLEAN_NEXT_STEP" android:layout_alignParentBottom="true" />
+    <ProgressBar android:id="@id/m_CheckWifiProgressBar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" android:layout_centerInParent="true" style="?unknown_attr_ref: 1010287" />
+</RelativeLayout>

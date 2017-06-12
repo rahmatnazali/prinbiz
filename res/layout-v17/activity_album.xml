@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="@color/BACKGROUND_INDEX" android:layout_width="-1" android:layout_height="-1" android:contentDescription="@string/DESCRIPTION"
+    <RelativeLayout android:id="@id/m_TitleImageLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+        <TextView android:id="@id/m_TitleTextView" style="@style/titleStyle" />
+        <ProgressBar android:id="@id/loadThumbnailProgressBar" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:indeterminate="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="15dp" android:layout_alignParentEnd="true" style="?unknown_attr_ref: 1010079" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/m_TitleImageLayout">
+        <ListView android:id="@id/listAlbum" android:layout_width="-1" android:layout_height="-2" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/m_CenterProgressBar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+</RelativeLayout>

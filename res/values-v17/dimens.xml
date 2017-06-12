@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_checbox">10.0dip</dimen>
+    <dimen name="padding_radiobox">10.0dip</dimen>
+    <dimen name="padding_checbox_large">15.0dip</dimen>
+    <dimen name="padding_radiobox_large">15.0dip</dimen>
+</resources>

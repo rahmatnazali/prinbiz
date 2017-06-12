@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:gravity="1" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:id="@id/DefaultBorderImageView" android:layout_width="-2" android:layout_height="-2" android:contentDescription="@string/desc" />
+        <ImageView android:id="@id/BorderImageView" android:layout_width="-2" android:layout_height="-2" android:contentDescription="@string/desc" />
+        <ProgressBar android:id="@id/BorderProgressBar" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+        <ImageView android:id="@id/BorderCheckImageView" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/desc" />
+    </RelativeLayout>
+</LinearLayout>

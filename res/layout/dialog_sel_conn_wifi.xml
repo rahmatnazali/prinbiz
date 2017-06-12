@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/WHITE" android:layout_width="-2" android:layout_height="-2">
+    <TextView android:textSize="16sp" android:textColor="@color/WHITE" android:gravity="11" android:id="@id/m_TitleTextView" android:background="@color/SETTING_ORANGE" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/DIALOG_CONN_WIFI_TITLE" android:layout_alignLeft="@id/m_BottomTableRow" android:layout_alignRight="@id/m_BottomTableRow" android:layout_alignParentTop="true" />
+    <RadioGroup android:gravity="10" android:id="@id/m_SelWifiRadioGroup" android:layout_width="-2" android:layout_height="-2" android:layout_margin="15dp" android:layout_marginLeft="15dp" android:layout_below="@id/m_TitleTextView">
+        <RadioButton android:textColor="@color/DARK_GRAY" android:id="@id/m_SelCurrentRadioButton" android:paddingLeft="@dimen/padding_checbox" android:paddingRight="@dimen/padding_checbox" android:layout_width="-2" android:layout_height="-2" android:checked="true" android:button="@drawable/button_select" />
+        <RadioButton android:textColor="@color/DARK_GRAY" android:id="@id/m_SelLastRadioButton" android:paddingLeft="@dimen/padding_checbox" android:paddingRight="@dimen/padding_checbox" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:button="@drawable/button_select" />
+    </RadioGroup>
+    <TableRow android:id="@id/m_BottomTableRow" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/m_SelWifiRadioGroup">
+        <ImageButton android:id="@id/m_SelConnCancelButton" android:background="@drawable/button_print_cancel_bg" android:layout_width="0dp" android:layout_height="-2" android:src="@drawable/button_print_cancel" android:layout_weight="1.0" android:contentDescription="@string/DESCRIPTION" />
+        <ImageButton android:id="@id/m_SelConnOKButton" android:background="@drawable/button_print_check_bg" android:layout_width="0dp" android:layout_height="-2" android:src="@drawable/button_yes" android:layout_weight="1.0" android:contentDescription="@string/DESCRIPTION" />
+    </TableRow>
+</RelativeLayout>

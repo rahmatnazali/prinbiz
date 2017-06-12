@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-2" android:layout_height="-2"
+    <RelativeLayout android:gravity="1" android:id="@id/m_ContentLayout" android:background="@color/WHITE" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp">
+        <TextView android:textSize="18sp" android:textColor="@color/DARK_GRAY" android:id="@id/m_LeaveMSG1TextView" android:padding="20dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/DIALOG_LEAVE_MSG1" />
+        <TableRow android:id="@id/m_LeaveTableBottomRow" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/m_LeaveMSG1TextView">
+            <ImageButton android:id="@id/m_LeaveNoImageButton" android:background="@drawable/button_print_cancel_bg" android:layout_width="0dp" android:layout_height="-2" android:src="@drawable/button_print_cancel" android:layout_weight="1.0" android:contentDescription="@string/DESCRIPTION" />
+            <ImageButton android:id="@id/m_LeaveYesImageButton" android:background="@drawable/button_print_check_bg" android:layout_width="0dp" android:layout_height="-2" android:src="@drawable/button_yes" android:layout_weight="1.0" android:contentDescription="@string/DESCRIPTION" />
+        </TableRow>
+    </RelativeLayout>
+    <ImageButton android:id="@id/m_LeaveCloseImageButton" android:src="@drawable/button_delete" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/DESCRIPTION" android:layout_alignParentEnd="true" style="@style/btnPrintLeaveStyle" />
+</RelativeLayout>

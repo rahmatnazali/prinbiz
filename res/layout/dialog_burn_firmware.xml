@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <ProgressBar android:gravity="11" android:layout_gravity="1" android:id="@id/m_BurnFirmwareProgressBar" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="6dp" android:layout_marginTop="12dp" android:layout_marginRight="6dp" android:max="100" android:layout_weight="2.0" style="?unknown_attr_ref: 1010078" />
+        <TextView android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:id="@id/m_BurnFirmwareMSGTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:layout_weight="3.0" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="@color/WHITE" android:layout_width="-1" android:layout_height="-2"
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/DARK_GRAY" android:id="@id/txtSettingName" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:text="" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TableRow android:gravity="10" android:id="@id/tableRow1" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/UpdateView" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:contentDescription="@string/DESCRIPTION" />
+            <ImageView android:id="@id/CheckView" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:contentDescription="@string/DESCRIPTION" />
+        </TableRow>
+    </RelativeLayout>
+</RelativeLayout>

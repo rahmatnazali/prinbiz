@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/WHITE" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/m_TitleLayout" android:background="@drawable/title_bar" android:layout_width="-1" android:layout_height="-2">
+        <ImageButton android:id="@id/m_BackButton" android:src="@drawable/button_back" android:contentDescription="@string/DESCRIPTION" style="@style/btnStyle" />
+        <TableRow android:id="@id/tableRow1" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="15dp" android:layout_alignParentEnd="true">
+            <ImageButton android:id="@id/m_StatusButton" android:background="0x106000d" android:padding="@dimen/pool_padding_button" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_printer_status" android:contentDescription="@string/DESCRIPTION" />
+            <ImageButton android:id="@id/m_PrintButton" android:background="0x106000d" android:padding="@dimen/pool_padding_button" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_print" android:contentDescription="@string/DESCRIPTION" />
+        </TableRow>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_FunctionLayout" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="10dp" android:layout_below="@id/m_TitleLayout">
+        <TableRow android:layout_width="-2" android:layout_height="-2" android:baselineAligned="false" android:layout_centerHorizontal="true">
+            <ImageButton android:id="@id/m_ReduceButton" android:background="0x106000d" android:padding="@dimen/pool_padding_button" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_reduce" android:contentDescription="@string/desc" />
+            <TextView android:textColor="@color/SETTING_ORANGE" android:gravity="11" android:id="@id/m_CountNumTextView" android:layout_width="40dp" android:layout_height="-1" />
+            <ImageButton android:id="@id/m_AddButton" android:background="0x106000d" android:padding="@dimen/pool_padding_button" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_add" android:contentDescription="@string/desc" />
+        </TableRow>
+        <TableRow android:id="@id/m_FunctionTableRow" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_marginEnd="15dp" android:layout_alignParentEnd="true">
+            <ImageButton android:id="@id/m_EditButton" android:background="0x106000d" android:padding="@dimen/pool_padding_button" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/button_edit_disable" android:contentDescription="@string/DESCRIPTION" />
+        </TableRow>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="11" android:id="@id/m_ImageRelativeLayout" android:layout_width="-1" android:layout_height="200dp" android:layout_below="@id/m_FunctionLayout" />
+    <RelativeLayout android:id="@id/m_H1FineButtonGroupRelativeLayout" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_alignTop="@id/m_ImageRelativeLayout" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/m_HFineSacleDownImageButton" android:background="@drawable/button_fine_scale_down" android:layout_width="-2" android:layout_height="-2" android:contentDescription="@string/DESCRIPTION" />
+        <ImageButton android:id="@id/m_HFineSacleUpImageButton" android:background="@drawable/button_fine_scale_up" android:layout_width="-2" android:layout_height="-2" android:contentDescription="@string/DESCRIPTION" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_H2FineButtonGroupRelativeLayout" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_alignBottom="@id/m_ImageRelativeLayout" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/m_HFineUpImageButton" android:background="@drawable/button_fine_up" android:layout_width="-2" android:layout_height="-2" android:contentDescription="@string/DESCRIPTION" />
+        <ImageButton android:id="@id/m_HFineDownImageButton" android:background="@drawable/button_fine_down" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@id/m_HFineUpImageButton" android:contentDescription="@string/DESCRIPTION" />
+        <ImageButton android:id="@id/m_HFineLeftImageButton" android:background="@drawable/button_fine_left" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@id/m_HFineDownImageButton" android:contentDescription="@string/DESCRIPTION" />
+        <ImageButton android:id="@id/m_HFineRightImageButton" android:background="@drawable/button_fine_right" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@id/m_HFineLeftImageButton" android:contentDescription="@string/DESCRIPTION" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="10" android:id="@id/m_V1FineButtonGroupRelativeLayout" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_alignLeft="@id/m_ImageRelativeLayout" android:layout_alignTop="@id/m_ImageRelativeLayout" android:layout_alignBottom="@id/m_ImageRelativeLayout">
+        <ImageButton android:id="@id/m_VFineSacleDownImageButton" android:background="@drawable/button_fine_scale_down" android:layout_width="-2" android:layout_height="-2" android:contentDescription="@string/DESCRIPTION" />
+        <ImageButton android:id="@id/m_VFineSacleUpImageButton" android:background="@drawable/button_fine_scale_up" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/m_VFineSacleDownImageButton" android:contentDescription="@string/DESCRIPTION" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="10" android:id="@id/m_V2FineButtonGroupRelativeLayout" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/FrameLayout1" android:layout_alignRight="@id/m_ImageRelativeLayout" android:layout_alignBottom="@id/m_ImageRelativeLayout">
+        <ImageButton android:id="@id/m_VFineUpImageButton" android:background="@drawable/button_fine_up" android:layout_width="-2" android:layout_height="-2" android:contentDescription="@string/DESCRIPTION" />
+        <ImageButton android:id="@id/m_VFineDownImageButton" android:background="@drawable/button_fine_down" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/m_VFineUpImageButton" android:contentDescription="@string/DESCRIPTION" />
+        <ImageButton android:id="@id/m_VFineLeftImageButton" android:background="@drawable/button_fine_left" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/m_VFineDownImageButton" android:contentDescription="@string/DESCRIPTION" />
+        <ImageButton android:id="@id/m_VFineRightImageButton" android:background="@drawable/button_fine_right" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/m_VFineLeftImageButton" android:contentDescription="@string/DESCRIPTION" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/m_ProgressBar" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="false" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 101007a" />
+</RelativeLayout>

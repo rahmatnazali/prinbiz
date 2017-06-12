@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_centerHorizontal="true"
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+        <TextView android:textSize="16sp" android:textColor="@color/WHITE" android:layout_gravity="3" android:id="@id/textView1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="@string/CONTRAST" />
+        <com.hiti.plugins.common.ColorPainter_Scorller android:layout_gravity="1" android:id="@id/m_ColorPainter_Contrast" android:background="@drawable/filter_color_painter_contrast" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+        <TextView android:textSize="16sp" android:textColor="@color/WHITE" android:layout_gravity="3" android:id="@id/textView2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="@string/LIGHT" />
+        <com.hiti.plugins.common.ColorPainter_Scorller android:layout_gravity="1" android:id="@id/m_ColorPainter_Light" android:background="@drawable/filter_color_painter_brightness" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+        <TextView android:textSize="16sp" android:textColor="@color/WHITE" android:layout_gravity="3" android:id="@id/textView3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="@string/SATURATION" />
+        <com.hiti.plugins.common.ColorPainter_Scorller android:layout_gravity="1" android:id="@id/m_ColorPainter_Saturation" android:background="@drawable/filter_color_painter_saturation" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

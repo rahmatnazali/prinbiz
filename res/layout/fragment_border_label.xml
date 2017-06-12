@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/WHITE" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="20sp" android:textColor="@color/border_color_label" android:gravity="11" android:id="@id/m_BorderLabelTextView" android:background="@drawable/button_label_bg" android:layout_width="60dp" android:layout_height="40dp" />
+</LinearLayout>
